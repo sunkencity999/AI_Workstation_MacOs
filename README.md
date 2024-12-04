@@ -1,4 +1,4 @@
-# Shell-GPT Interface
+# AI Workstation
 
 An advanced AI-powered document and system interaction tool with comprehensive file analysis and web search capabilities.
 
@@ -43,7 +43,7 @@ An advanced AI-powered document and system interaction tool with comprehensive f
   - Clear response button
   - Expandable sections in sidebar
 
-- **Web Search Integration**
+- **AI-Enhanced Web Search Integration**
   - DuckDuckGo search support
   - Web page content analysis
   - Search result summarization
@@ -172,6 +172,8 @@ pip install -r requirements.txt
 
 ## Usage
 
+From the File Folder, double-click the `Launch SGPT Interface.command` file to open the interface. You can also run the command directly from the terminal:
+
 1. Start the application:
 ```bash
 streamlit run sgpt_interface.py
@@ -248,7 +250,7 @@ Key test areas include:
 ## Developer Information
 
 - Author: Christopher Bradford
-- Contact: contact@christopherdanielbradford.com
+- Contact: christopher.bradford@joby.aero | contact@christopherdanielbradford.com
 - License: MIT
 
 ## Troubleshooting
