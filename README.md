@@ -149,6 +149,14 @@ Common issues and solutions:
 
 ## Installation
 
+You can install the AI Workstation using the install script:
+
+```bash
+bash install.sh
+```
+
+if that fails, you can run the following commands manually:
+
 1. Install system dependencies:
 ```bash
 brew install libmagic
