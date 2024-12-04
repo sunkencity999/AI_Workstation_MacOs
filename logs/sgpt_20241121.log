@@ -1,0 +1,1363 @@
+2024-11-21 00:37:13,461 - INFO - === Application Starting ===
+2024-11-21 00:37:13,461 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:37:13,461 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:37:13,461 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:37:13,518 - INFO - Checking if Ollama server is running...
+2024-11-21 00:37:13,519 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:13,521 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:37:13,521 - INFO - Ollama version check response: 200
+2024-11-21 00:37:13,521 - INFO - Checking if Ollama server is running...
+2024-11-21 00:37:13,522 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:13,523 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:37:13,523 - INFO - Ollama version check response: 200
+2024-11-21 00:37:13,523 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:37:13,523 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:13,535 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:37:13,535 - INFO - Ollama API response status: 200
+2024-11-21 00:37:13,535 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:37:13,536 - INFO - Found model: mistral:latest
+2024-11-21 00:37:13,536 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:37:13,536 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:37:13,536 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:37:13,536 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:37:13,536 - INFO - Checking if Ollama server is running...
+2024-11-21 00:37:13,536 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:13,537 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:37:13,537 - INFO - Ollama version check response: 200
+2024-11-21 00:37:13,538 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:37:13,538 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:13,542 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:37:13,542 - INFO - Ollama API response status: 200
+2024-11-21 00:37:13,543 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:37:13,543 - INFO - Found model: mistral:latest
+2024-11-21 00:37:13,543 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:37:13,543 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:37:13,543 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:37:13,543 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:37:39,503 - INFO - === Application Starting ===
+2024-11-21 00:37:39,503 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:37:39,504 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:37:39,504 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:37:39,507 - INFO - Checking if Ollama server is running...
+2024-11-21 00:37:39,510 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:39,512 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:37:39,513 - INFO - Ollama version check response: 200
+2024-11-21 00:37:39,513 - INFO - Checking if Ollama server is running...
+2024-11-21 00:37:39,515 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:39,517 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:37:39,517 - INFO - Ollama version check response: 200
+2024-11-21 00:37:39,517 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:37:39,518 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:39,523 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:37:39,524 - INFO - Ollama API response status: 200
+2024-11-21 00:37:39,524 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:37:39,524 - INFO - Found model: mistral:latest
+2024-11-21 00:37:39,524 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:37:39,524 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:37:39,524 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:37:39,524 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:37:39,524 - INFO - Checking if Ollama server is running...
+2024-11-21 00:37:39,525 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:39,527 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:37:39,528 - INFO - Ollama version check response: 200
+2024-11-21 00:37:39,528 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:37:39,529 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:39,532 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:37:39,533 - INFO - Ollama API response status: 200
+2024-11-21 00:37:39,533 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:37:39,533 - INFO - Found model: mistral:latest
+2024-11-21 00:37:39,533 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:37:39,533 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:37:39,533 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:37:39,533 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:37:39,603 - INFO - === Application Starting ===
+2024-11-21 00:37:39,603 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:37:39,603 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:37:39,603 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:37:39,604 - INFO - Checking if Ollama server is running...
+2024-11-21 00:37:39,605 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:39,606 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:37:39,607 - INFO - Ollama version check response: 200
+2024-11-21 00:37:39,607 - INFO - Checking if Ollama server is running...
+2024-11-21 00:37:39,607 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:39,608 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:37:39,608 - INFO - Ollama version check response: 200
+2024-11-21 00:37:39,609 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:37:39,609 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:39,614 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:37:39,615 - INFO - Ollama API response status: 200
+2024-11-21 00:37:39,615 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:37:39,615 - INFO - Found model: mistral:latest
+2024-11-21 00:37:39,615 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:37:39,615 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:37:39,615 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:37:39,615 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:37:39,615 - INFO - Checking if Ollama server is running...
+2024-11-21 00:37:39,616 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:39,618 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:37:39,618 - INFO - Ollama version check response: 200
+2024-11-21 00:37:39,618 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:37:39,619 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:37:39,624 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:37:39,624 - INFO - Ollama API response status: 200
+2024-11-21 00:37:39,624 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:37:39,625 - INFO - Found model: mistral:latest
+2024-11-21 00:37:39,625 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:37:39,625 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:37:39,625 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:37:39,625 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:37:39,627 - INFO - Performing web search for: Who won the presidential election in 2024?
+2024-11-21 00:37:39,627 - ERROR - Error in web search: name 'GoogleSearch' is not defined
+2024-11-21 00:42:58,451 - INFO - === Application Starting ===
+2024-11-21 00:42:58,451 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:42:58,451 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:42:58,451 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:42:58,452 - INFO - Checking if Ollama server is running...
+2024-11-21 00:42:58,452 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:42:58,454 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:42:58,454 - INFO - Ollama version check response: 200
+2024-11-21 00:42:58,454 - INFO - Checking if Ollama server is running...
+2024-11-21 00:42:58,455 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:42:58,456 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:42:58,456 - INFO - Ollama version check response: 200
+2024-11-21 00:42:58,456 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:42:58,457 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:42:58,460 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:42:58,460 - INFO - Ollama API response status: 200
+2024-11-21 00:42:58,460 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:42:58,460 - INFO - Found model: mistral:latest
+2024-11-21 00:42:58,460 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:42:58,460 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:42:58,460 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:42:58,460 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:42:58,460 - INFO - Checking if Ollama server is running...
+2024-11-21 00:42:58,461 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:42:58,461 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:42:58,461 - INFO - Ollama version check response: 200
+2024-11-21 00:42:58,462 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:42:58,462 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:42:58,465 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:42:58,465 - INFO - Ollama API response status: 200
+2024-11-21 00:42:58,465 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:42:58,465 - INFO - Found model: mistral:latest
+2024-11-21 00:42:58,465 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:42:58,465 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:42:58,465 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:42:58,465 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:43:16,937 - INFO - === Application Starting ===
+2024-11-21 00:43:16,937 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:43:16,937 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:43:16,937 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:43:16,939 - INFO - Checking if Ollama server is running...
+2024-11-21 00:43:16,942 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:43:16,944 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:43:16,944 - INFO - Ollama version check response: 200
+2024-11-21 00:43:16,945 - INFO - Checking if Ollama server is running...
+2024-11-21 00:43:16,946 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:43:16,948 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:43:16,948 - INFO - Ollama version check response: 200
+2024-11-21 00:43:16,949 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:43:16,950 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:43:16,954 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:43:16,954 - INFO - Ollama API response status: 200
+2024-11-21 00:43:16,954 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:43:16,954 - INFO - Found model: mistral:latest
+2024-11-21 00:43:16,954 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:43:16,954 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:43:16,954 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:43:16,955 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:43:16,955 - INFO - Checking if Ollama server is running...
+2024-11-21 00:43:16,956 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:43:16,957 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:43:16,958 - INFO - Ollama version check response: 200
+2024-11-21 00:43:16,958 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:43:16,958 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:43:16,961 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:43:16,961 - INFO - Ollama API response status: 200
+2024-11-21 00:43:16,961 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:43:16,961 - INFO - Found model: mistral:latest
+2024-11-21 00:43:16,962 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:43:16,962 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:43:16,962 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:43:16,962 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:43:17,007 - INFO - === Application Starting ===
+2024-11-21 00:43:17,007 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:43:17,007 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:43:17,007 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:43:17,008 - INFO - Checking if Ollama server is running...
+2024-11-21 00:43:17,009 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:43:17,010 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:43:17,010 - INFO - Ollama version check response: 200
+2024-11-21 00:43:17,010 - INFO - Checking if Ollama server is running...
+2024-11-21 00:43:17,011 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:43:17,012 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:43:17,012 - INFO - Ollama version check response: 200
+2024-11-21 00:43:17,012 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:43:17,013 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:43:17,016 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:43:17,016 - INFO - Ollama API response status: 200
+2024-11-21 00:43:17,016 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:43:17,016 - INFO - Found model: mistral:latest
+2024-11-21 00:43:17,016 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:43:17,016 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:43:17,016 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:43:17,016 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:43:17,016 - INFO - Checking if Ollama server is running...
+2024-11-21 00:43:17,016 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:43:17,017 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:43:17,017 - INFO - Ollama version check response: 200
+2024-11-21 00:43:17,017 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:43:17,017 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:43:17,020 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:43:17,020 - INFO - Ollama API response status: 200
+2024-11-21 00:43:17,020 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:43:17,020 - INFO - Found model: mistral:latest
+2024-11-21 00:43:17,020 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:43:17,020 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:43:17,020 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:43:17,020 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:43:17,022 - INFO - Performing web search for: who won the presidential election in 2024?
+2024-11-21 00:43:17,023 - DEBUG - Starting new HTTPS connection (1): html.duckduckgo.com:443
+2024-11-21 00:43:19,710 - DEBUG - https://html.duckduckgo.com:443 "GET /html/?q=who%20won%20the%20presidential%20election%20in%202024? HTTP/11" 200 None
+2024-11-21 00:45:52,123 - INFO - === Application Starting ===
+2024-11-21 00:45:52,123 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:45:52,123 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:45:52,123 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:45:52,124 - INFO - Checking if Ollama server is running...
+2024-11-21 00:45:52,124 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:45:52,126 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:45:52,126 - INFO - Ollama version check response: 200
+2024-11-21 00:45:52,126 - INFO - Checking if Ollama server is running...
+2024-11-21 00:45:52,126 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:45:52,127 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:45:52,128 - INFO - Ollama version check response: 200
+2024-11-21 00:45:52,128 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:45:52,128 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:45:52,136 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:45:52,136 - INFO - Ollama API response status: 200
+2024-11-21 00:45:52,136 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:45:52,136 - INFO - Found model: mistral:latest
+2024-11-21 00:45:52,136 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:45:52,136 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:45:52,136 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:45:52,136 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:45:52,136 - INFO - Checking if Ollama server is running...
+2024-11-21 00:45:52,136 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:45:52,138 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:45:52,138 - INFO - Ollama version check response: 200
+2024-11-21 00:45:52,138 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:45:52,138 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:45:52,143 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:45:52,143 - INFO - Ollama API response status: 200
+2024-11-21 00:45:52,143 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:45:52,143 - INFO - Found model: mistral:latest
+2024-11-21 00:45:52,143 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:45:52,143 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:45:52,143 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:45:52,143 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:46:04,695 - INFO - === Application Starting ===
+2024-11-21 00:46:04,695 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:46:04,696 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:46:04,696 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:46:04,699 - INFO - Checking if Ollama server is running...
+2024-11-21 00:46:04,702 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:46:04,703 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:46:04,704 - INFO - Ollama version check response: 200
+2024-11-21 00:46:04,704 - INFO - Checking if Ollama server is running...
+2024-11-21 00:46:04,706 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:46:04,708 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:46:04,709 - INFO - Ollama version check response: 200
+2024-11-21 00:46:04,709 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:46:04,710 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:46:04,713 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:46:04,713 - INFO - Ollama API response status: 200
+2024-11-21 00:46:04,714 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:46:04,714 - INFO - Found model: mistral:latest
+2024-11-21 00:46:04,714 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:46:04,714 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:46:04,714 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:46:04,714 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:46:04,714 - INFO - Checking if Ollama server is running...
+2024-11-21 00:46:04,715 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:46:04,716 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:46:04,716 - INFO - Ollama version check response: 200
+2024-11-21 00:46:04,716 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:46:04,717 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:46:04,720 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:46:04,720 - INFO - Ollama API response status: 200
+2024-11-21 00:46:04,720 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:46:04,720 - INFO - Found model: mistral:latest
+2024-11-21 00:46:04,720 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:46:04,720 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:46:04,721 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:46:04,721 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:46:04,767 - INFO - === Application Starting ===
+2024-11-21 00:46:04,767 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:46:04,767 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:46:04,767 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:46:04,768 - INFO - Checking if Ollama server is running...
+2024-11-21 00:46:04,768 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:46:04,770 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:46:04,770 - INFO - Ollama version check response: 200
+2024-11-21 00:46:04,770 - INFO - Checking if Ollama server is running...
+2024-11-21 00:46:04,770 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:46:04,771 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:46:04,771 - INFO - Ollama version check response: 200
+2024-11-21 00:46:04,771 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:46:04,771 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:46:04,774 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:46:04,774 - INFO - Ollama API response status: 200
+2024-11-21 00:46:04,774 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:46:04,774 - INFO - Found model: mistral:latest
+2024-11-21 00:46:04,775 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:46:04,775 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:46:04,775 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:46:04,775 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:46:04,775 - INFO - Checking if Ollama server is running...
+2024-11-21 00:46:04,775 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:46:04,776 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:46:04,776 - INFO - Ollama version check response: 200
+2024-11-21 00:46:04,776 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:46:04,777 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:46:04,779 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:46:04,779 - INFO - Ollama API response status: 200
+2024-11-21 00:46:04,779 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:46:04,779 - INFO - Found model: mistral:latest
+2024-11-21 00:46:04,779 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:46:04,779 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:46:04,779 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:46:04,779 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:08,732 - INFO - === Application Starting ===
+2024-11-21 00:47:08,732 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:47:08,732 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:47:08,733 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:47:08,734 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:08,734 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:08,736 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:08,736 - INFO - Ollama version check response: 200
+2024-11-21 00:47:08,736 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:08,737 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:08,738 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:08,738 - INFO - Ollama version check response: 200
+2024-11-21 00:47:08,738 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:08,738 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:08,743 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:08,743 - INFO - Ollama API response status: 200
+2024-11-21 00:47:08,743 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:08,743 - INFO - Found model: mistral:latest
+2024-11-21 00:47:08,743 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:08,743 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:08,743 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:08,743 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:08,743 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:08,744 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:08,745 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:08,745 - INFO - Ollama version check response: 200
+2024-11-21 00:47:08,745 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:08,746 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:08,748 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:08,748 - INFO - Ollama API response status: 200
+2024-11-21 00:47:08,748 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:08,748 - INFO - Found model: mistral:latest
+2024-11-21 00:47:08,748 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:08,748 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:08,748 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:08,748 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:12,768 - INFO - === Application Starting ===
+2024-11-21 00:47:12,769 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:47:12,769 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:47:12,769 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:47:12,771 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:12,773 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:12,775 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:12,776 - INFO - Ollama version check response: 200
+2024-11-21 00:47:12,776 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:12,777 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:12,779 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:12,779 - INFO - Ollama version check response: 200
+2024-11-21 00:47:12,780 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:12,781 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:12,785 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:12,785 - INFO - Ollama API response status: 200
+2024-11-21 00:47:12,785 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:12,785 - INFO - Found model: mistral:latest
+2024-11-21 00:47:12,785 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:12,785 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:12,785 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:12,785 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:12,785 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:12,787 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:12,789 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:12,789 - INFO - Ollama version check response: 200
+2024-11-21 00:47:12,789 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:12,791 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:12,795 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:12,796 - INFO - Ollama API response status: 200
+2024-11-21 00:47:12,796 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:12,796 - INFO - Found model: mistral:latest
+2024-11-21 00:47:12,796 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:12,796 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:12,796 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:12,796 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:12,869 - INFO - === Application Starting ===
+2024-11-21 00:47:12,869 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:47:12,869 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:47:12,869 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:47:12,869 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:12,870 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:12,871 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:12,871 - INFO - Ollama version check response: 200
+2024-11-21 00:47:12,871 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:12,872 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:12,873 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:12,873 - INFO - Ollama version check response: 200
+2024-11-21 00:47:12,873 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:12,873 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:12,876 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:12,876 - INFO - Ollama API response status: 200
+2024-11-21 00:47:12,876 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:12,876 - INFO - Found model: mistral:latest
+2024-11-21 00:47:12,876 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:12,876 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:12,876 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:12,876 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:12,876 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:12,876 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:12,877 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:12,877 - INFO - Ollama version check response: 200
+2024-11-21 00:47:12,877 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:12,878 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:12,880 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:12,880 - INFO - Ollama API response status: 200
+2024-11-21 00:47:12,880 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:12,880 - INFO - Found model: mistral:latest
+2024-11-21 00:47:12,880 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:12,880 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:12,880 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:12,881 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:12,882 - INFO - Performing web search for: who won the election in 2024?
+2024-11-21 00:47:12,883 - DEBUG - Starting new HTTPS connection (1): html.duckduckgo.com:443
+2024-11-21 00:47:14,048 - DEBUG - https://html.duckduckgo.com:443 "GET /html/?q=who%20won%20the%20election%20in%202024? HTTP/11" 200 None
+2024-11-21 00:47:14,064 - INFO - Found result: US presidential election results 2024: Harris vs. Trump | Live maps ...
+2024-11-21 00:47:14,064 - INFO - Found result: Presidential Election 2024 Live Results: Donald Trump wins - NBC News
+2024-11-21 00:47:14,064 - INFO - Found result: Donald Trump wins the 2024 presidential election : NPR
+2024-11-21 00:47:20,567 - INFO - === Application Starting ===
+2024-11-21 00:47:20,568 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:47:20,568 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:47:20,568 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:47:20,572 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:20,574 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:20,577 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:20,577 - INFO - Ollama version check response: 200
+2024-11-21 00:47:20,578 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:20,579 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:20,581 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:20,581 - INFO - Ollama version check response: 200
+2024-11-21 00:47:20,581 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:20,582 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:20,585 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:20,585 - INFO - Ollama API response status: 200
+2024-11-21 00:47:20,585 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:20,585 - INFO - Found model: mistral:latest
+2024-11-21 00:47:20,585 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:20,585 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:20,585 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:20,585 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:20,586 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:20,587 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:20,588 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:20,588 - INFO - Ollama version check response: 200
+2024-11-21 00:47:20,589 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:20,590 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:20,592 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:20,593 - INFO - Ollama API response status: 200
+2024-11-21 00:47:20,593 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:20,593 - INFO - Found model: mistral:latest
+2024-11-21 00:47:20,593 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:20,593 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:20,593 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:20,593 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:20,643 - INFO - === Application Starting ===
+2024-11-21 00:47:20,643 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:47:20,643 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:47:20,643 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:47:20,644 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:20,644 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:20,646 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:20,646 - INFO - Ollama version check response: 200
+2024-11-21 00:47:20,646 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:20,647 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:20,648 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:20,648 - INFO - Ollama version check response: 200
+2024-11-21 00:47:20,648 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:20,649 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:20,651 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:20,651 - INFO - Ollama API response status: 200
+2024-11-21 00:47:20,651 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:20,651 - INFO - Found model: mistral:latest
+2024-11-21 00:47:20,651 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:20,651 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:20,651 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:20,651 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:20,651 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:20,652 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:20,653 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:20,653 - INFO - Ollama version check response: 200
+2024-11-21 00:47:20,653 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:20,653 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:20,656 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:20,657 - INFO - Ollama API response status: 200
+2024-11-21 00:47:20,657 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:20,657 - INFO - Found model: mistral:latest
+2024-11-21 00:47:20,657 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:20,657 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:20,657 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:20,657 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:36,311 - INFO - === Application Starting ===
+2024-11-21 00:47:36,312 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:47:36,312 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:47:36,312 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:47:36,315 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:36,317 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,319 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:36,320 - INFO - Ollama version check response: 200
+2024-11-21 00:47:36,320 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:36,321 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,324 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:36,324 - INFO - Ollama version check response: 200
+2024-11-21 00:47:36,324 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:36,325 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,330 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:36,331 - INFO - Ollama API response status: 200
+2024-11-21 00:47:36,331 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:36,331 - INFO - Found model: mistral:latest
+2024-11-21 00:47:36,331 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:36,331 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:36,331 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:36,331 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:36,331 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:36,332 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,334 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:36,334 - INFO - Ollama version check response: 200
+2024-11-21 00:47:36,335 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:36,335 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,339 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:36,340 - INFO - Ollama API response status: 200
+2024-11-21 00:47:36,340 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:36,340 - INFO - Found model: mistral:latest
+2024-11-21 00:47:36,340 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:36,340 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:36,340 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:36,340 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:36,406 - INFO - === Application Starting ===
+2024-11-21 00:47:36,406 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:47:36,406 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:47:36,406 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:47:36,407 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:36,407 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,408 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:36,408 - INFO - Ollama version check response: 200
+2024-11-21 00:47:36,408 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:36,409 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,410 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:36,410 - INFO - Ollama version check response: 200
+2024-11-21 00:47:36,410 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:36,410 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,412 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:36,412 - INFO - Ollama API response status: 200
+2024-11-21 00:47:36,412 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:36,412 - INFO - Found model: mistral:latest
+2024-11-21 00:47:36,412 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:36,412 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:36,412 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:36,412 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:36,412 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:36,413 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,413 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:36,413 - INFO - Ollama version check response: 200
+2024-11-21 00:47:36,414 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:36,414 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,416 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:36,417 - INFO - Ollama API response status: 200
+2024-11-21 00:47:36,417 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:36,417 - INFO - Found model: mistral:latest
+2024-11-21 00:47:36,417 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:36,417 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:36,417 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:36,417 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:36,420 - INFO - Processing prompt: List the current directory contents.
+2024-11-21 00:47:36,420 - INFO - Model: llama3.2-vision:latest, Using Ollama: True
+2024-11-21 00:47:36,421 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:36,423 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:36,423 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:41,129 - DEBUG - http://localhost:11434 "POST /api/chat HTTP/11" 200 319
+2024-11-21 00:47:41,130 - INFO - Executing shell command: ls
+2024-11-21 00:47:41,184 - INFO - Query generation complete
+2024-11-21 00:47:48,731 - INFO - === Application Starting ===
+2024-11-21 00:47:48,732 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:47:48,732 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:47:48,732 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:47:48,734 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:48,736 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:48,739 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:48,740 - INFO - Ollama version check response: 200
+2024-11-21 00:47:48,740 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:48,742 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:48,745 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:48,745 - INFO - Ollama version check response: 200
+2024-11-21 00:47:48,746 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:48,747 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:48,750 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:48,751 - INFO - Ollama API response status: 200
+2024-11-21 00:47:48,751 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:48,751 - INFO - Found model: mistral:latest
+2024-11-21 00:47:48,751 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:48,751 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:48,751 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:48,751 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:48,751 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:48,753 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:48,755 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:48,755 - INFO - Ollama version check response: 200
+2024-11-21 00:47:48,755 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:48,756 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:48,761 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:48,762 - INFO - Ollama API response status: 200
+2024-11-21 00:47:48,762 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:48,762 - INFO - Found model: mistral:latest
+2024-11-21 00:47:48,762 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:48,762 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:48,762 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:48,762 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:48,807 - INFO - === Application Starting ===
+2024-11-21 00:47:48,807 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:47:48,807 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:47:48,807 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:47:48,807 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:48,808 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:48,809 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:48,810 - INFO - Ollama version check response: 200
+2024-11-21 00:47:48,810 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:48,810 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:48,811 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:48,812 - INFO - Ollama version check response: 200
+2024-11-21 00:47:48,812 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:48,812 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:48,815 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:48,815 - INFO - Ollama API response status: 200
+2024-11-21 00:47:48,815 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:48,816 - INFO - Found model: mistral:latest
+2024-11-21 00:47:48,816 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:48,816 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:48,816 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:48,816 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:47:48,816 - INFO - Checking if Ollama server is running...
+2024-11-21 00:47:48,816 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:48,817 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:47:48,818 - INFO - Ollama version check response: 200
+2024-11-21 00:47:48,818 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:47:48,818 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:47:48,820 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:47:48,821 - INFO - Ollama API response status: 200
+2024-11-21 00:47:48,821 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:47:48,821 - INFO - Found model: mistral:latest
+2024-11-21 00:47:48,821 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:47:48,821 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:47:48,821 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:47:48,821 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:56:22,333 - INFO - === Application Starting ===
+2024-11-21 00:56:22,333 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:56:22,333 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:56:22,333 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:57:56,443 - INFO - === Application Starting ===
+2024-11-21 00:57:56,443 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:57:56,443 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:57:56,443 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:57:56,445 - INFO - Checking if Ollama server is running...
+2024-11-21 00:57:56,446 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:57:56,447 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:57:56,447 - INFO - Ollama version check response: 200
+2024-11-21 00:57:56,447 - INFO - Checking if Ollama server is running...
+2024-11-21 00:57:56,448 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:57:56,449 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:57:56,449 - INFO - Ollama version check response: 200
+2024-11-21 00:57:56,449 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:57:56,449 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:57:56,455 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:57:56,455 - INFO - Ollama API response status: 200
+2024-11-21 00:57:56,455 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:57:56,455 - INFO - Found model: mistral:latest
+2024-11-21 00:57:56,455 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:57:56,455 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:57:56,455 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:57:56,455 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:57:56,455 - INFO - Checking if Ollama server is running...
+2024-11-21 00:57:56,455 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:57:56,457 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:57:56,457 - INFO - Ollama version check response: 200
+2024-11-21 00:57:56,457 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:57:56,457 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:57:56,460 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:57:56,461 - INFO - Ollama API response status: 200
+2024-11-21 00:57:56,461 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:57:56,461 - INFO - Found model: mistral:latest
+2024-11-21 00:57:56,461 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:57:56,461 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:57:56,461 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:57:56,461 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:58:12,603 - INFO - === Application Starting ===
+2024-11-21 00:58:12,604 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:58:12,604 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:58:12,604 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:58:12,606 - INFO - Checking if Ollama server is running...
+2024-11-21 00:58:12,607 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:58:12,609 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:58:12,609 - INFO - Ollama version check response: 200
+2024-11-21 00:58:12,609 - INFO - Checking if Ollama server is running...
+2024-11-21 00:58:12,610 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:58:12,612 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:58:12,612 - INFO - Ollama version check response: 200
+2024-11-21 00:58:12,613 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:58:12,614 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:58:12,617 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:58:12,617 - INFO - Ollama API response status: 200
+2024-11-21 00:58:12,617 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:58:12,618 - INFO - Found model: mistral:latest
+2024-11-21 00:58:12,618 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:58:12,618 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:58:12,618 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:58:12,618 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:58:12,618 - INFO - Checking if Ollama server is running...
+2024-11-21 00:58:12,619 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:58:12,620 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:58:12,620 - INFO - Ollama version check response: 200
+2024-11-21 00:58:12,620 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:58:12,621 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:58:12,624 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:58:12,625 - INFO - Ollama API response status: 200
+2024-11-21 00:58:12,625 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:58:12,625 - INFO - Found model: mistral:latest
+2024-11-21 00:58:12,625 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:58:12,625 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:58:12,625 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:58:12,625 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:58:12,679 - INFO - === Application Starting ===
+2024-11-21 00:58:12,679 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 00:58:12,679 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 00:58:12,679 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 00:58:12,680 - INFO - Checking if Ollama server is running...
+2024-11-21 00:58:12,681 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:58:12,682 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:58:12,682 - INFO - Ollama version check response: 200
+2024-11-21 00:58:12,682 - INFO - Checking if Ollama server is running...
+2024-11-21 00:58:12,683 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:58:12,683 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:58:12,684 - INFO - Ollama version check response: 200
+2024-11-21 00:58:12,684 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:58:12,684 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:58:12,686 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:58:12,687 - INFO - Ollama API response status: 200
+2024-11-21 00:58:12,687 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:58:12,687 - INFO - Found model: mistral:latest
+2024-11-21 00:58:12,687 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:58:12,687 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:58:12,687 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:58:12,687 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:58:12,687 - INFO - Checking if Ollama server is running...
+2024-11-21 00:58:12,687 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:58:12,688 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 00:58:12,688 - INFO - Ollama version check response: 200
+2024-11-21 00:58:12,688 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 00:58:12,689 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 00:58:12,691 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 00:58:12,691 - INFO - Ollama API response status: 200
+2024-11-21 00:58:12,691 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 00:58:12,691 - INFO - Found model: mistral:latest
+2024-11-21 00:58:12,691 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 00:58:12,691 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 00:58:12,691 - INFO - Found model: llava-llama3:latest
+2024-11-21 00:58:12,691 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 00:58:12,693 - INFO - Performing web search for: Who won the 2024 presidential election?
+2024-11-21 00:58:12,694 - DEBUG - Starting new HTTPS connection (1): html.duckduckgo.com:443
+2024-11-21 00:58:13,888 - DEBUG - https://html.duckduckgo.com:443 "GET /html/?q=Who%20won%20the%202024%20presidential%20election? HTTP/11" 200 None
+2024-11-21 00:58:13,904 - INFO - Found result: US presidential election results 2024: Harris vs. Trump | Live maps ...
+2024-11-21 00:58:13,905 - INFO - Found result: Election 2024: Presidential results - CNN
+2024-11-21 00:58:13,905 - INFO - Found result: Presidential Election 2024 Live Results: Donald Trump wins - NBC News
+2024-11-21 00:58:13,906 - ERROR - Error analyzing search results: 'generator' object has no attribute 'get'
+2024-11-21 01:01:49,641 - INFO - === Application Starting ===
+2024-11-21 01:01:49,641 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:01:49,641 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:01:49,641 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:01:49,642 - INFO - Checking if Ollama server is running...
+2024-11-21 01:01:49,643 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:01:49,645 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:01:49,645 - INFO - Ollama version check response: 200
+2024-11-21 01:01:49,645 - INFO - Checking if Ollama server is running...
+2024-11-21 01:01:49,645 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:01:49,646 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:01:49,646 - INFO - Ollama version check response: 200
+2024-11-21 01:01:49,646 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:01:49,647 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:01:49,653 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:01:49,654 - INFO - Ollama API response status: 200
+2024-11-21 01:01:49,655 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:01:49,655 - INFO - Found model: mistral:latest
+2024-11-21 01:01:49,656 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:01:49,656 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:01:49,656 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:01:49,657 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:01:49,658 - INFO - Checking if Ollama server is running...
+2024-11-21 01:01:49,660 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:01:49,661 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:01:49,661 - INFO - Ollama version check response: 200
+2024-11-21 01:01:49,662 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:01:49,663 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:01:49,666 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:01:49,666 - INFO - Ollama API response status: 200
+2024-11-21 01:01:49,667 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:01:49,667 - INFO - Found model: mistral:latest
+2024-11-21 01:01:49,667 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:01:49,667 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:01:49,667 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:01:49,667 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:02:08,649 - INFO - === Application Starting ===
+2024-11-21 01:02:08,650 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:02:08,650 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:02:08,650 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:02:08,652 - INFO - Checking if Ollama server is running...
+2024-11-21 01:02:08,653 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:08,655 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:02:08,656 - INFO - Ollama version check response: 200
+2024-11-21 01:02:08,657 - INFO - Checking if Ollama server is running...
+2024-11-21 01:02:08,659 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:08,661 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:02:08,661 - INFO - Ollama version check response: 200
+2024-11-21 01:02:08,662 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:02:08,663 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:08,666 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:02:08,667 - INFO - Ollama API response status: 200
+2024-11-21 01:02:08,667 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:02:08,667 - INFO - Found model: mistral:latest
+2024-11-21 01:02:08,667 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:02:08,667 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:02:08,667 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:02:08,667 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:02:08,667 - INFO - Checking if Ollama server is running...
+2024-11-21 01:02:08,668 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:08,669 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:02:08,670 - INFO - Ollama version check response: 200
+2024-11-21 01:02:08,670 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:02:08,671 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:08,674 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:02:08,675 - INFO - Ollama API response status: 200
+2024-11-21 01:02:08,675 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:02:08,675 - INFO - Found model: mistral:latest
+2024-11-21 01:02:08,675 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:02:08,675 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:02:08,675 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:02:08,675 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:02:08,744 - INFO - === Application Starting ===
+2024-11-21 01:02:08,744 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:02:08,744 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:02:08,744 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:02:08,744 - INFO - Checking if Ollama server is running...
+2024-11-21 01:02:08,745 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:08,746 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:02:08,746 - INFO - Ollama version check response: 200
+2024-11-21 01:02:08,746 - INFO - Checking if Ollama server is running...
+2024-11-21 01:02:08,747 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:08,748 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:02:08,748 - INFO - Ollama version check response: 200
+2024-11-21 01:02:08,748 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:02:08,748 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:08,752 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:02:08,753 - INFO - Ollama API response status: 200
+2024-11-21 01:02:08,753 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:02:08,753 - INFO - Found model: mistral:latest
+2024-11-21 01:02:08,754 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:02:08,754 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:02:08,754 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:02:08,754 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:02:08,754 - INFO - Checking if Ollama server is running...
+2024-11-21 01:02:08,755 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:08,756 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:02:08,757 - INFO - Ollama version check response: 200
+2024-11-21 01:02:08,757 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:02:08,757 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:08,759 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:02:08,759 - INFO - Ollama API response status: 200
+2024-11-21 01:02:08,759 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:02:08,760 - INFO - Found model: mistral:latest
+2024-11-21 01:02:08,760 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:02:08,760 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:02:08,760 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:02:08,760 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:02:08,762 - INFO - Performing web search for: who won the presidential election in 2024?
+2024-11-21 01:02:08,762 - DEBUG - Starting new HTTPS connection (1): html.duckduckgo.com:443
+2024-11-21 01:02:09,902 - DEBUG - https://html.duckduckgo.com:443 "GET /html/?q=who%20won%20the%20presidential%20election%20in%202024? HTTP/11" 200 None
+2024-11-21 01:02:09,919 - INFO - Found result: Election 2024: Presidential results - CNN
+2024-11-21 01:02:09,920 - INFO - Found result: US presidential election results 2024: Harris vs. Trump | Live maps ...
+2024-11-21 01:02:09,920 - INFO - Found result: Presidential Election 2024 Live Results: Donald Trump wins - NBC News
+2024-11-21 01:02:09,920 - INFO - Sending request to Ollama with model: gpt-3.5-turbo
+2024-11-21 01:02:09,920 - INFO - Prompt: Based on the following search results, provide a concise but comprehensive summary that answers the ...
+2024-11-21 01:02:09,922 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:02:09,924 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 404 43
+2024-11-21 01:02:09,925 - ERROR - Error querying Ollama: 404 Client Error: Not Found for url: http://localhost:11434/api/generate
+2024-11-21 01:05:25,806 - INFO - === Application Starting ===
+2024-11-21 01:05:25,807 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:05:25,807 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:05:25,807 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:05:25,808 - INFO - Checking if Ollama server is running...
+2024-11-21 01:05:25,808 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:25,809 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:05:25,809 - INFO - Ollama version check response: 200
+2024-11-21 01:05:25,809 - INFO - Checking if Ollama server is running...
+2024-11-21 01:05:25,810 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:25,811 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:05:25,811 - INFO - Ollama version check response: 200
+2024-11-21 01:05:25,811 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:05:25,811 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:25,816 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:05:25,816 - INFO - Ollama API response status: 200
+2024-11-21 01:05:25,816 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:05:25,816 - INFO - Found model: mistral:latest
+2024-11-21 01:05:25,816 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:05:25,816 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:05:25,816 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:05:25,816 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:05:25,816 - INFO - Checking if Ollama server is running...
+2024-11-21 01:05:25,817 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:25,818 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:05:25,818 - INFO - Ollama version check response: 200
+2024-11-21 01:05:25,818 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:05:25,818 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:25,822 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:05:25,822 - INFO - Ollama API response status: 200
+2024-11-21 01:05:25,822 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:05:25,822 - INFO - Found model: mistral:latest
+2024-11-21 01:05:25,822 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:05:25,822 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:05:25,822 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:05:25,822 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:05:30,640 - INFO - === Application Starting ===
+2024-11-21 01:05:30,641 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:05:30,641 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:05:30,641 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:05:30,644 - INFO - Checking if Ollama server is running...
+2024-11-21 01:05:30,646 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:30,648 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:05:30,649 - INFO - Ollama version check response: 200
+2024-11-21 01:05:30,649 - INFO - Checking if Ollama server is running...
+2024-11-21 01:05:30,650 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:30,652 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:05:30,653 - INFO - Ollama version check response: 200
+2024-11-21 01:05:30,653 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:05:30,654 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:30,659 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:05:30,659 - INFO - Ollama API response status: 200
+2024-11-21 01:05:30,659 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:05:30,660 - INFO - Found model: mistral:latest
+2024-11-21 01:05:30,660 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:05:30,660 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:05:30,660 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:05:30,660 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:05:30,660 - INFO - Checking if Ollama server is running...
+2024-11-21 01:05:30,662 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:30,663 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:05:30,663 - INFO - Ollama version check response: 200
+2024-11-21 01:05:30,664 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:05:30,665 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:30,668 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:05:30,668 - INFO - Ollama API response status: 200
+2024-11-21 01:05:30,668 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:05:30,669 - INFO - Found model: mistral:latest
+2024-11-21 01:05:30,669 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:05:30,669 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:05:30,669 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:05:30,669 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:05:30,722 - INFO - === Application Starting ===
+2024-11-21 01:05:30,722 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:05:30,722 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:05:30,722 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:05:30,723 - INFO - Checking if Ollama server is running...
+2024-11-21 01:05:30,723 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:30,725 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:05:30,725 - INFO - Ollama version check response: 200
+2024-11-21 01:05:30,725 - INFO - Checking if Ollama server is running...
+2024-11-21 01:05:30,725 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:30,726 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:05:30,726 - INFO - Ollama version check response: 200
+2024-11-21 01:05:30,726 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:05:30,726 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:30,729 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:05:30,729 - INFO - Ollama API response status: 200
+2024-11-21 01:05:30,729 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:05:30,729 - INFO - Found model: mistral:latest
+2024-11-21 01:05:30,729 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:05:30,729 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:05:30,729 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:05:30,729 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:05:30,729 - INFO - Checking if Ollama server is running...
+2024-11-21 01:05:30,730 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:30,731 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:05:30,731 - INFO - Ollama version check response: 200
+2024-11-21 01:05:30,731 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:05:30,731 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:30,734 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:05:30,734 - INFO - Ollama API response status: 200
+2024-11-21 01:05:30,734 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:05:30,734 - INFO - Found model: mistral:latest
+2024-11-21 01:05:30,734 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:05:30,734 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:05:30,734 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:05:30,734 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:05:30,736 - INFO - Performing web search for: who won the presidential election in 2024?
+2024-11-21 01:05:30,736 - DEBUG - Starting new HTTPS connection (1): html.duckduckgo.com:443
+2024-11-21 01:05:31,831 - DEBUG - https://html.duckduckgo.com:443 "GET /html/?q=who%20won%20the%20presidential%20election%20in%202024? HTTP/11" 200 None
+2024-11-21 01:05:31,848 - INFO - Found result: Election 2024: Presidential results - CNN
+2024-11-21 01:05:31,849 - INFO - Found result: US presidential election results 2024: Harris vs. Trump | Live maps ...
+2024-11-21 01:05:31,849 - INFO - Found result: Presidential Election 2024 Live Results: Donald Trump wins - NBC News
+2024-11-21 01:05:31,849 - INFO - Sending request to Ollama with model: llama3.2-vision:latest
+2024-11-21 01:05:31,850 - INFO - Prompt: Based on the following search results, provide a concise but comprehensive summary that answers the ...
+2024-11-21 01:05:31,852 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:05:34,734 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-11-21 01:08:26,943 - INFO - === Application Starting ===
+2024-11-21 01:08:26,943 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:08:26,943 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:08:26,943 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:08:26,944 - INFO - Checking if Ollama server is running...
+2024-11-21 01:08:26,945 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:26,947 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:08:26,947 - INFO - Ollama version check response: 200
+2024-11-21 01:08:26,948 - INFO - Checking if Ollama server is running...
+2024-11-21 01:08:26,948 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:26,949 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:08:26,949 - INFO - Ollama version check response: 200
+2024-11-21 01:08:26,949 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:08:26,950 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:26,957 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:08:26,957 - INFO - Ollama API response status: 200
+2024-11-21 01:08:26,957 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:08:26,957 - INFO - Found model: mistral:latest
+2024-11-21 01:08:26,957 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:08:26,957 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:08:26,957 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:08:26,957 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:08:26,957 - INFO - Checking if Ollama server is running...
+2024-11-21 01:08:26,958 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:26,959 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:08:26,959 - INFO - Ollama version check response: 200
+2024-11-21 01:08:26,959 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:08:26,959 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:26,962 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:08:26,962 - INFO - Ollama API response status: 200
+2024-11-21 01:08:26,962 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:08:26,962 - INFO - Found model: mistral:latest
+2024-11-21 01:08:26,962 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:08:26,962 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:08:26,962 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:08:26,962 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:08:31,151 - INFO - === Application Starting ===
+2024-11-21 01:08:31,152 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:08:31,152 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:08:31,152 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:08:31,154 - INFO - Checking if Ollama server is running...
+2024-11-21 01:08:31,156 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:31,158 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:08:31,159 - INFO - Ollama version check response: 200
+2024-11-21 01:08:31,159 - INFO - Checking if Ollama server is running...
+2024-11-21 01:08:31,161 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:31,164 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:08:31,164 - INFO - Ollama version check response: 200
+2024-11-21 01:08:31,164 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:08:31,165 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:31,170 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:08:31,171 - INFO - Ollama API response status: 200
+2024-11-21 01:08:31,171 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:08:31,171 - INFO - Found model: mistral:latest
+2024-11-21 01:08:31,171 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:08:31,171 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:08:31,171 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:08:31,171 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:08:31,171 - INFO - Checking if Ollama server is running...
+2024-11-21 01:08:31,172 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:31,174 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:08:31,174 - INFO - Ollama version check response: 200
+2024-11-21 01:08:31,174 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:08:31,175 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:31,180 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:08:31,180 - INFO - Ollama API response status: 200
+2024-11-21 01:08:31,180 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:08:31,180 - INFO - Found model: mistral:latest
+2024-11-21 01:08:31,180 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:08:31,180 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:08:31,180 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:08:31,180 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:08:31,230 - INFO - === Application Starting ===
+2024-11-21 01:08:31,230 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:08:31,230 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:08:31,230 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:08:31,230 - INFO - Checking if Ollama server is running...
+2024-11-21 01:08:31,231 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:31,233 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:08:31,233 - INFO - Ollama version check response: 200
+2024-11-21 01:08:31,233 - INFO - Checking if Ollama server is running...
+2024-11-21 01:08:31,233 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:31,235 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:08:31,235 - INFO - Ollama version check response: 200
+2024-11-21 01:08:31,235 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:08:31,235 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:31,237 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:08:31,238 - INFO - Ollama API response status: 200
+2024-11-21 01:08:31,238 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:08:31,238 - INFO - Found model: mistral:latest
+2024-11-21 01:08:31,238 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:08:31,238 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:08:31,238 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:08:31,238 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:08:31,238 - INFO - Checking if Ollama server is running...
+2024-11-21 01:08:31,238 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:31,239 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:08:31,239 - INFO - Ollama version check response: 200
+2024-11-21 01:08:31,239 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:08:31,240 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:31,244 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:08:31,244 - INFO - Ollama API response status: 200
+2024-11-21 01:08:31,244 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:08:31,244 - INFO - Found model: mistral:latest
+2024-11-21 01:08:31,244 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:08:31,244 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:08:31,244 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:08:31,244 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:08:31,246 - INFO - Performing web search for: who won the presidential election in 2024?
+2024-11-21 01:08:31,247 - DEBUG - Starting new HTTPS connection (1): html.duckduckgo.com:443
+2024-11-21 01:08:32,351 - DEBUG - https://html.duckduckgo.com:443 "GET /html/?q=who%20won%20the%20presidential%20election%20in%202024? HTTP/11" 200 None
+2024-11-21 01:08:32,370 - INFO - Found result: Election 2024: Presidential results - CNN
+2024-11-21 01:08:32,372 - INFO - Found result: US presidential election results 2024: Harris vs. Trump | Live maps ...
+2024-11-21 01:08:32,372 - INFO - Found result: Presidential Election 2024 Live Results: Donald Trump wins - NBC News
+2024-11-21 01:08:32,374 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:08:40,611 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-11-21 01:10:56,564 - INFO - === Application Starting ===
+2024-11-21 01:10:56,565 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:10:56,565 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:10:56,565 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:10:56,568 - INFO - Checking if Ollama server is running...
+2024-11-21 01:10:56,569 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:10:56,571 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:10:56,572 - INFO - Ollama version check response: 200
+2024-11-21 01:10:56,572 - INFO - Checking if Ollama server is running...
+2024-11-21 01:10:56,573 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:10:56,575 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:10:56,576 - INFO - Ollama version check response: 200
+2024-11-21 01:10:56,576 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:10:56,577 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:10:56,581 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:10:56,582 - INFO - Ollama API response status: 200
+2024-11-21 01:10:56,582 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:10:56,582 - INFO - Found model: mistral:latest
+2024-11-21 01:10:56,582 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:10:56,582 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:10:56,582 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:10:56,582 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:10:56,582 - INFO - Checking if Ollama server is running...
+2024-11-21 01:10:56,583 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:10:56,585 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:10:56,585 - INFO - Ollama version check response: 200
+2024-11-21 01:10:56,586 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:10:56,586 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:10:56,590 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:10:56,590 - INFO - Ollama API response status: 200
+2024-11-21 01:10:56,591 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:10:56,591 - INFO - Found model: mistral:latest
+2024-11-21 01:10:56,591 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:10:56,591 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:10:56,591 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:10:56,591 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:10:56,639 - INFO - === Application Starting ===
+2024-11-21 01:10:56,639 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:10:56,639 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:10:56,639 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:10:56,640 - INFO - Checking if Ollama server is running...
+2024-11-21 01:10:56,641 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:10:56,642 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:10:56,642 - INFO - Ollama version check response: 200
+2024-11-21 01:10:56,642 - INFO - Checking if Ollama server is running...
+2024-11-21 01:10:56,643 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:10:56,644 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:10:56,644 - INFO - Ollama version check response: 200
+2024-11-21 01:10:56,644 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:10:56,644 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:10:56,646 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:10:56,646 - INFO - Ollama API response status: 200
+2024-11-21 01:10:56,646 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:10:56,646 - INFO - Found model: mistral:latest
+2024-11-21 01:10:56,646 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:10:56,646 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:10:56,646 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:10:56,647 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:10:56,647 - INFO - Checking if Ollama server is running...
+2024-11-21 01:10:56,647 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:10:56,648 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:10:56,648 - INFO - Ollama version check response: 200
+2024-11-21 01:10:56,648 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:10:56,648 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:10:56,651 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:10:56,651 - INFO - Ollama API response status: 200
+2024-11-21 01:10:56,651 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:10:56,651 - INFO - Found model: mistral:latest
+2024-11-21 01:10:56,651 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:10:56,651 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:10:56,651 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:10:56,651 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:11:13,852 - INFO - === Application Starting ===
+2024-11-21 01:11:13,852 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:11:13,853 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:11:13,853 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:11:13,857 - INFO - Checking if Ollama server is running...
+2024-11-21 01:11:13,859 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,862 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:11:13,863 - INFO - Ollama version check response: 200
+2024-11-21 01:11:13,863 - INFO - Checking if Ollama server is running...
+2024-11-21 01:11:13,864 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,866 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:11:13,866 - INFO - Ollama version check response: 200
+2024-11-21 01:11:13,867 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:11:13,868 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,873 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:11:13,873 - INFO - Ollama API response status: 200
+2024-11-21 01:11:13,873 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:11:13,873 - INFO - Found model: mistral:latest
+2024-11-21 01:11:13,874 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:11:13,874 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:11:13,874 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:11:13,874 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:11:13,874 - INFO - Checking if Ollama server is running...
+2024-11-21 01:11:13,875 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,877 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:11:13,877 - INFO - Ollama version check response: 200
+2024-11-21 01:11:13,877 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:11:13,879 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,883 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:11:13,883 - INFO - Ollama API response status: 200
+2024-11-21 01:11:13,884 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:11:13,884 - INFO - Found model: mistral:latest
+2024-11-21 01:11:13,884 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:11:13,884 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:11:13,884 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:11:13,884 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:11:13,936 - INFO - === Application Starting ===
+2024-11-21 01:11:13,937 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:11:13,937 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:11:13,937 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:11:13,937 - INFO - Checking if Ollama server is running...
+2024-11-21 01:11:13,938 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,939 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:11:13,940 - INFO - Ollama version check response: 200
+2024-11-21 01:11:13,940 - INFO - Checking if Ollama server is running...
+2024-11-21 01:11:13,940 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,941 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:11:13,941 - INFO - Ollama version check response: 200
+2024-11-21 01:11:13,942 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:11:13,942 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,947 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:11:13,947 - INFO - Ollama API response status: 200
+2024-11-21 01:11:13,947 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:11:13,947 - INFO - Found model: mistral:latest
+2024-11-21 01:11:13,947 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:11:13,947 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:11:13,947 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:11:13,947 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:11:13,947 - INFO - Checking if Ollama server is running...
+2024-11-21 01:11:13,947 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,949 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:11:13,949 - INFO - Ollama version check response: 200
+2024-11-21 01:11:13,949 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:11:13,949 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,951 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:11:13,952 - INFO - Ollama API response status: 200
+2024-11-21 01:11:13,952 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:11:13,952 - INFO - Found model: mistral:latest
+2024-11-21 01:11:13,952 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:11:13,952 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:11:13,952 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:11:13,952 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:11:13,954 - INFO - Processing prompt: List the contents of the current directory.
+2024-11-21 01:11:13,954 - INFO - Model: llama3.2-vision:latest, Using Ollama: True
+2024-11-21 01:11:13,954 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:13,957 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:11:13,957 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:11:15,056 - DEBUG - http://localhost:11434 "POST /api/chat HTTP/11" 200 319
+2024-11-21 01:11:15,056 - INFO - Executing shell command: ls -l
+2024-11-21 01:11:15,118 - INFO - Query generation complete
+2024-11-21 01:13:22,018 - INFO - === Application Starting ===
+2024-11-21 01:13:22,019 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:13:22,019 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:13:22,019 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:13:22,023 - INFO - Checking if Ollama server is running...
+2024-11-21 01:13:22,026 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:13:22,028 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:13:22,029 - INFO - Ollama version check response: 200
+2024-11-21 01:13:22,030 - INFO - Checking if Ollama server is running...
+2024-11-21 01:13:22,032 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:13:22,034 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:13:22,034 - INFO - Ollama version check response: 200
+2024-11-21 01:13:22,035 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:13:22,036 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:13:22,043 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:13:22,043 - INFO - Ollama API response status: 200
+2024-11-21 01:13:22,043 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:13:22,043 - INFO - Found model: mistral:latest
+2024-11-21 01:13:22,044 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:13:22,044 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:13:22,044 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:13:22,044 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:13:22,044 - INFO - Checking if Ollama server is running...
+2024-11-21 01:13:22,046 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:13:22,047 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:13:22,048 - INFO - Ollama version check response: 200
+2024-11-21 01:13:22,048 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:13:22,049 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:13:22,052 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:13:22,052 - INFO - Ollama API response status: 200
+2024-11-21 01:13:22,052 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:13:22,052 - INFO - Found model: mistral:latest
+2024-11-21 01:13:22,053 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:13:22,053 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:13:22,053 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:13:22,053 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:13:22,108 - INFO - === Application Starting ===
+2024-11-21 01:13:22,108 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-21 01:13:22,108 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-21 01:13:22,108 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241121.log
+2024-11-21 01:13:22,109 - INFO - Checking if Ollama server is running...
+2024-11-21 01:13:22,109 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:13:22,111 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:13:22,111 - INFO - Ollama version check response: 200
+2024-11-21 01:13:22,111 - INFO - Checking if Ollama server is running...
+2024-11-21 01:13:22,111 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:13:22,112 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:13:22,112 - INFO - Ollama version check response: 200
+2024-11-21 01:13:22,112 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:13:22,113 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:13:22,115 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:13:22,115 - INFO - Ollama API response status: 200
+2024-11-21 01:13:22,115 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:13:22,115 - INFO - Found model: mistral:latest
+2024-11-21 01:13:22,116 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:13:22,116 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:13:22,116 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:13:22,116 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest
+2024-11-21 01:13:22,116 - INFO - Checking if Ollama server is running...
+2024-11-21 01:13:22,116 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:13:22,117 - DEBUG - http://localhost:11434 "GET /api/version HTTP/11" 200 19
+2024-11-21 01:13:22,117 - INFO - Ollama version check response: 200
+2024-11-21 01:13:22,117 - INFO - Attempting to connect to Ollama API at http://localhost:11434/api/tags
+2024-11-21 01:13:22,118 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-21 01:13:22,120 - DEBUG - http://localhost:11434 "GET /api/tags HTTP/11" 200 1395
+2024-11-21 01:13:22,120 - INFO - Ollama API response status: 200
+2024-11-21 01:13:22,121 - INFO - Ollama API response: {"models":[{"name":"mistral:latest","model":"mistral:latest","modified_at":"2024-11-18T11:35:28.739632334-08:00","size":4113301824,"digest":"f974a74358d62a017b37c6f424fcdf2744ca02926c4f952513ddf474b2f
+2024-11-21 01:13:22,121 - INFO - Found model: mistral:latest
+2024-11-21 01:13:22,121 - INFO - Found model: qwen2.5-coder:7b
+2024-11-21 01:13:22,121 - INFO - Found model: llama3.2-vision:latest
+2024-11-21 01:13:22,121 - INFO - Found model: llava-llama3:latest
+2024-11-21 01:13:22,121 - INFO - Successfully found 4 models: mistral:latest, qwen2.5-coder:7b, llama3.2-vision:latest, llava-llama3:latest

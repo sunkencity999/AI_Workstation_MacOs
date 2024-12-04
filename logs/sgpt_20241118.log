@@ -1,0 +1,825 @@
+2024-11-18 15:22:14,662 - INFO - === Application Starting ===
+2024-11-18 15:22:14,662 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:22:14,662 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:22:14,662 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:22:14,686 - INFO - Fetching available Ollama models
+2024-11-18 15:22:14,718 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:22:49,253 - INFO - === Application Starting ===
+2024-11-18 15:22:49,254 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:22:49,254 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:22:49,254 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:22:49,256 - INFO - Fetching available Ollama models
+2024-11-18 15:22:49,296 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:22:49,337 - INFO - === Application Starting ===
+2024-11-18 15:22:49,337 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:22:49,337 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:22:49,337 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:22:49,337 - INFO - Fetching available Ollama models
+2024-11-18 15:22:49,367 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:22:49,372 - INFO - Starting new query generation
+2024-11-18 15:22:49,372 - INFO - Processing prompt: What is the capital of Japan?
+2024-11-18 15:22:49,372 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 15:22:49,384 - INFO - Executing Ollama command: sgpt --model mistral:latest --ollama What is the capital of Japan?
+2024-11-18 15:22:49,385 - INFO - Starting subprocess
+2024-11-18 15:22:50,524 - DEBUG - Command stdout: 
+2024-11-18 15:22:50,524 - DEBUG - Command stderr: Usage: sgpt [OPTIONS] [PROMPT]
+Try 'sgpt --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ No such option: --ollama                                                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2024-11-18 15:22:50,524 - DEBUG - Return code: 2
+2024-11-18 15:22:50,524 - ERROR - Error: Your version of shell-gpt doesn't support Ollama. Please install the latest version with: pip install --upgrade shell-gpt
+2024-11-18 15:22:50,525 - INFO - Query generation completed
+2024-11-18 15:26:20,772 - INFO - === Application Starting ===
+2024-11-18 15:26:20,773 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:26:20,773 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:26:20,773 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:26:20,774 - INFO - Fetching available Ollama models
+2024-11-18 15:26:20,809 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:26:30,571 - INFO - === Application Starting ===
+2024-11-18 15:26:30,571 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:26:30,571 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:26:30,572 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:26:30,573 - INFO - Fetching available Ollama models
+2024-11-18 15:26:30,610 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:26:30,652 - INFO - === Application Starting ===
+2024-11-18 15:26:30,652 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:26:30,652 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:26:30,652 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:26:30,652 - INFO - Fetching available Ollama models
+2024-11-18 15:26:30,671 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:26:30,673 - INFO - Starting new query generation
+2024-11-18 15:26:30,673 - INFO - Processing prompt: 'Who is the leader of France?'
+2024-11-18 15:26:30,673 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 15:26:30,680 - INFO - Executing Ollama command: sgpt --model mistral:latest --ollama 'Who is the leader of France?'
+2024-11-18 15:26:30,680 - INFO - Starting subprocess
+2024-11-18 15:26:31,172 - DEBUG - Command stdout: 
+2024-11-18 15:26:31,172 - DEBUG - Command stderr: Usage: sgpt [OPTIONS] [PROMPT]
+Try 'sgpt --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ No such option: --ollama                                                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2024-11-18 15:26:31,172 - DEBUG - Return code: 2
+2024-11-18 15:26:31,172 - ERROR - Error: Your version of shell-gpt doesn't support Ollama. Please install the latest version with: pip install --upgrade shell-gpt
+2024-11-18 15:26:31,172 - INFO - Query generation completed
+2024-11-18 15:29:00,289 - INFO - === Application Starting ===
+2024-11-18 15:29:00,289 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:29:00,289 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:29:00,289 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:29:00,316 - INFO - Fetching available Ollama models
+2024-11-18 15:29:00,342 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:29:11,452 - INFO - === Application Starting ===
+2024-11-18 15:29:11,453 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:29:11,453 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:29:11,453 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:29:11,455 - INFO - Fetching available Ollama models
+2024-11-18 15:29:11,493 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:29:11,545 - INFO - === Application Starting ===
+2024-11-18 15:29:11,545 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:29:11,546 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:29:11,546 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:29:11,546 - INFO - Fetching available Ollama models
+2024-11-18 15:29:11,568 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:29:11,570 - INFO - Starting new query generation
+2024-11-18 15:29:11,570 - INFO - Processing prompt: 'Who is the leader of France?'
+2024-11-18 15:29:11,570 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 15:29:11,580 - INFO - Executing Ollama command: sgpt --model mistral:latest --ollama 'Who is the leader of France?'
+2024-11-18 15:29:11,580 - INFO - Starting subprocess
+2024-11-18 15:29:12,114 - DEBUG - Command stdout: 
+2024-11-18 15:29:12,114 - DEBUG - Command stderr: Usage: sgpt [OPTIONS] [PROMPT]
+Try 'sgpt --help' for help.
+╭─ Error ──────────────────────────────────────────────────────────────────────╮
+│ No such option: --ollama                                                     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+2024-11-18 15:29:12,114 - DEBUG - Return code: 2
+2024-11-18 15:29:12,115 - ERROR - Error: Your version of shell-gpt doesn't support Ollama. Please install the latest version with: pip install --upgrade shell-gpt
+2024-11-18 15:29:12,115 - INFO - Query generation completed
+2024-11-18 15:32:28,168 - INFO - === Application Starting ===
+2024-11-18 15:32:28,168 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:32:28,168 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:32:28,168 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:32:28,193 - INFO - Fetching available Ollama models
+2024-11-18 15:32:28,223 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:32:36,264 - INFO - === Application Starting ===
+2024-11-18 15:32:36,264 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:32:36,265 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:32:36,265 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:32:36,266 - INFO - Fetching available Ollama models
+2024-11-18 15:32:36,305 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:32:36,369 - INFO - === Application Starting ===
+2024-11-18 15:32:36,369 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:32:36,369 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:32:36,369 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:32:36,370 - INFO - Fetching available Ollama models
+2024-11-18 15:32:36,400 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:32:36,403 - INFO - Starting new query generation
+2024-11-18 15:32:36,403 - INFO - Processing prompt: 'Who is the leader of France?'
+2024-11-18 15:32:36,403 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 15:32:36,404 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 15:32:36,405 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 15:32:36,405 - INFO - Sending request to Ollama with model: mistral:latest
+2024-11-18 15:32:36,406 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 15:32:40,299 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 823
+2024-11-18 15:32:40,300 - INFO - Ollama response received, length: 211
+2024-11-18 15:32:40,303 - INFO - Query generation completed
+2024-11-18 15:32:48,594 - INFO - === Application Starting ===
+2024-11-18 15:32:48,595 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:32:48,595 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:32:48,595 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:32:51,957 - INFO - === Application Starting ===
+2024-11-18 15:32:51,957 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:32:51,957 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:32:51,957 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:33:04,832 - INFO - === Application Starting ===
+2024-11-18 15:33:04,833 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:33:04,833 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:33:04,833 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:33:04,835 - INFO - OpenAI API key updated
+2024-11-18 15:33:14,872 - INFO - === Application Starting ===
+2024-11-18 15:33:14,872 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:33:14,872 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:33:14,872 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:33:14,874 - INFO - Fetching available Ollama models
+2024-11-18 15:33:14,916 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:33:17,553 - INFO - === Application Starting ===
+2024-11-18 15:33:17,553 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:33:17,554 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:33:17,554 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:33:17,556 - INFO - Fetching available Ollama models
+2024-11-18 15:33:17,594 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:33:29,946 - INFO - === Application Starting ===
+2024-11-18 15:33:29,947 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:33:29,947 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:33:29,947 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:33:29,949 - INFO - Fetching available Ollama models
+2024-11-18 15:33:29,995 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:33:30,027 - INFO - === Application Starting ===
+2024-11-18 15:33:30,027 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:33:30,027 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:33:30,027 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:33:30,028 - INFO - Fetching available Ollama models
+2024-11-18 15:33:30,052 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 15:33:30,055 - INFO - Starting new query generation
+2024-11-18 15:33:30,055 - INFO - Processing prompt: display the contents of the current directory
+2024-11-18 15:33:30,055 - INFO - Model: qwen2.5-coder:7b, Using Ollama: True
+2024-11-18 15:33:30,056 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 15:33:30,058 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 15:33:30,058 - INFO - Sending request to Ollama with model: qwen2.5-coder:7b
+2024-11-18 15:33:30,058 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 15:33:38,217 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 1813
+2024-11-18 15:33:38,218 - INFO - Ollama response received, length: 664
+2024-11-18 15:33:38,220 - INFO - Query generation completed
+2024-11-18 15:33:47,393 - INFO - === Application Starting ===
+2024-11-18 15:33:47,394 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:33:47,394 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:33:47,394 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:33:48,684 - INFO - === Application Starting ===
+2024-11-18 15:33:48,685 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 15:33:48,685 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 15:33:48,685 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 15:33:48,691 - INFO - Starting new query generation
+2024-11-18 15:33:48,691 - INFO - Processing prompt: display the contents of the current directory
+2024-11-18 15:33:48,691 - INFO - Model: gpt-3.5-turbo, Using Ollama: False
+2024-11-18 15:33:48,692 - INFO - OpenAI API key configured
+2024-11-18 15:33:48,692 - INFO - Executing OpenAI command: sgpt --model gpt-3.5-turbo display the contents of the current directory
+2024-11-18 15:33:48,692 - INFO - Starting subprocess
+2024-11-18 15:33:50,843 - DEBUG - Command stdout: To display the contents of the current directory in zsh, you can use the ls     
+command. Simply type ls and press Enter in your terminal to see a list of files 
+and directories in the current location.                                        
+2024-11-18 15:33:50,844 - DEBUG - Command stderr: 
+2024-11-18 15:33:50,844 - DEBUG - Return code: 0
+2024-11-18 15:33:50,844 - INFO - Command completed successfully with response length: 202
+2024-11-18 15:33:50,844 - INFO - Query generation completed
+2024-11-18 16:22:54,112 - INFO - === Application Starting ===
+2024-11-18 16:22:54,113 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:22:54,113 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:22:54,113 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:22:54,114 - INFO - Fetching available Ollama models
+2024-11-18 16:22:54,163 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:23:04,528 - INFO - === Application Starting ===
+2024-11-18 16:23:04,529 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:23:04,529 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:23:04,529 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:23:04,531 - INFO - Fetching available Ollama models
+2024-11-18 16:23:04,570 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:23:04,599 - INFO - === Application Starting ===
+2024-11-18 16:23:04,600 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:23:04,600 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:23:04,600 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:23:04,600 - INFO - Fetching available Ollama models
+2024-11-18 16:23:04,622 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:23:04,624 - INFO - Starting new query generation
+2024-11-18 16:23:04,624 - INFO - Processing prompt: list the files in the current directory.
+2024-11-18 16:23:04,624 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 16:23:04,624 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:23:04,626 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 16:23:04,626 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:23:05,851 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 1125
+2024-11-18 16:23:05,852 - INFO - Executing shell command: ls -la
+2024-11-18 16:23:05,922 - INFO - Query generation completed
+2024-11-18 16:23:49,398 - INFO - === Application Starting ===
+2024-11-18 16:23:49,398 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:23:49,398 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:23:49,398 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:23:49,400 - INFO - Fetching available Ollama models
+2024-11-18 16:23:49,437 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:23:49,468 - INFO - === Application Starting ===
+2024-11-18 16:23:49,468 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:23:49,468 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:23:49,468 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:23:49,468 - INFO - Fetching available Ollama models
+2024-11-18 16:23:49,494 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:23:49,499 - INFO - Starting new query generation
+2024-11-18 16:23:49,501 - INFO - Processing prompt: who is the current leader of france?
+2024-11-18 16:23:49,501 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 16:23:49,502 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:23:49,504 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 16:23:49,506 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:23:50,165 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 1181
+2024-11-18 16:23:50,166 - INFO - Ollama response received, length: 51
+2024-11-18 16:23:50,167 - INFO - Query generation completed
+2024-11-18 16:24:11,778 - INFO - === Application Starting ===
+2024-11-18 16:24:11,779 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:24:11,779 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:24:11,779 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:24:11,780 - INFO - Fetching available Ollama models
+2024-11-18 16:24:11,817 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:24:11,842 - INFO - === Application Starting ===
+2024-11-18 16:24:11,842 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:24:11,842 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:24:11,842 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:24:11,842 - INFO - Fetching available Ollama models
+2024-11-18 16:24:11,865 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:24:11,868 - INFO - Starting new query generation
+2024-11-18 16:24:11,868 - INFO - Processing prompt: who won the presidential election in the USA in 2024?
+2024-11-18 16:24:11,868 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 16:24:11,869 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:24:11,870 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 16:24:11,871 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:24:13,076 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 1356
+2024-11-18 16:24:13,078 - INFO - Ollama response received, length: 102
+2024-11-18 16:24:13,080 - INFO - Query generation completed
+2024-11-18 16:25:00,077 - INFO - === Application Starting ===
+2024-11-18 16:25:00,078 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:25:00,078 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:25:00,078 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:25:00,080 - INFO - Fetching available Ollama models
+2024-11-18 16:25:00,120 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:25:00,149 - INFO - === Application Starting ===
+2024-11-18 16:25:00,149 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:25:00,149 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:25:00,149 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:25:00,150 - INFO - Fetching available Ollama models
+2024-11-18 16:25:00,173 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:25:00,177 - INFO - Starting new query generation
+2024-11-18 16:25:00,179 - INFO - Processing prompt: create a txt file in the current directory named "Test.txt", and generate a haiku about being an llm within it.
+2024-11-18 16:25:00,179 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 16:25:00,180 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:25:00,181 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 16:25:00,182 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:25:03,700 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 2035
+2024-11-18 16:25:03,701 - INFO - Executing shell command: echo "In the realm of law, I dwell,\nA scholar standing tall,\nJustice is my pact." > Test.txt
+
+To explain, this command creates a file called 'Test.txt' in the current directory and writes a haiku about being an LLM (Master of Laws) within it. The user can then use the text editor of their choice to further edit the contents of the file if desired.
+2024-11-18 16:25:03,750 - INFO - Query generation completed
+2024-11-18 16:26:09,920 - INFO - === Application Starting ===
+2024-11-18 16:26:09,920 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:26:09,920 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:26:09,920 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:26:09,922 - INFO - Fetching available Ollama models
+2024-11-18 16:26:09,964 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:26:09,996 - INFO - === Application Starting ===
+2024-11-18 16:26:09,996 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:26:09,996 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:26:09,996 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:26:09,997 - INFO - Fetching available Ollama models
+2024-11-18 16:26:10,017 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:26:10,019 - INFO - Starting new query generation
+2024-11-18 16:26:10,019 - INFO - Processing prompt: Create a directory named "Documents"
+2024-11-18 16:26:10,019 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 16:26:10,020 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:26:10,021 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 16:26:10,022 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:26:10,577 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 1135
+2024-11-18 16:26:10,578 - INFO - Executing shell command: mkdir Documents
+2024-11-18 16:26:10,637 - INFO - Query generation completed
+2024-11-18 16:28:02,742 - INFO - === Application Starting ===
+2024-11-18 16:28:02,743 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:28:02,743 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:28:02,743 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:28:02,745 - INFO - Fetching available Ollama models
+2024-11-18 16:28:02,784 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:28:26,246 - INFO - === Application Starting ===
+2024-11-18 16:28:26,247 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:28:26,247 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:28:26,247 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:28:26,249 - INFO - Fetching available Ollama models
+2024-11-18 16:28:26,286 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:28:55,856 - INFO - === Application Starting ===
+2024-11-18 16:28:55,857 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:28:55,857 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:28:55,857 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:28:55,858 - INFO - Fetching available Ollama models
+2024-11-18 16:28:55,897 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:28:55,925 - INFO - === Application Starting ===
+2024-11-18 16:28:55,925 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:28:55,925 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:28:55,925 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:28:55,925 - INFO - Fetching available Ollama models
+2024-11-18 16:28:55,945 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 16:28:55,948 - INFO - Starting new query generation
+2024-11-18 16:28:55,948 - INFO - Processing prompt: Create a file within the "Documents" subdirectory named Test. Place within it a haiku about being an LLM.
+2024-11-18 16:28:55,948 - INFO - Model: qwen2.5-coder:7b, Using Ollama: True
+2024-11-18 16:28:55,949 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:28:55,950 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 16:28:55,950 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 16:28:58,628 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 1231
+2024-11-18 16:28:58,629 - INFO - Executing shell command: echo "I am an AI\nLearning and responding\nto your queries." > Documents/Test.txt
+2024-11-18 16:28:58,676 - INFO - Query generation completed
+2024-11-18 16:53:14,201 - INFO - === Application Starting ===
+2024-11-18 16:53:14,202 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 16:53:14,202 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 16:53:14,202 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 16:53:14,204 - INFO - Fetching available Ollama models
+2024-11-18 16:53:14,275 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:01:04,174 - INFO - === Application Starting ===
+2024-11-18 17:01:04,174 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:01:04,174 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:01:04,174 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:01:04,176 - INFO - Fetching available Ollama models
+2024-11-18 17:01:04,220 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:01:04,263 - INFO - === Application Starting ===
+2024-11-18 17:01:04,263 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:01:04,263 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:01:04,263 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:01:04,264 - INFO - Fetching available Ollama models
+2024-11-18 17:01:04,290 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:01:04,293 - INFO - Starting new query generation
+2024-11-18 17:01:04,293 - INFO - Processing prompt: What time is it currently in France?
+2024-11-18 17:01:04,294 - INFO - Model: qwen2.5-coder:7b, Using Ollama: True
+2024-11-18 17:01:04,294 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 17:01:04,295 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 17:01:04,296 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 17:01:06,849 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 1211
+2024-11-18 17:01:06,850 - INFO - Ollama response received, length: 119
+2024-11-18 17:01:06,852 - INFO - Query generation completed
+2024-11-18 17:01:28,747 - INFO - === Application Starting ===
+2024-11-18 17:01:28,748 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:01:28,748 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:01:28,748 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:01:28,750 - INFO - Fetching available Ollama models
+2024-11-18 17:01:28,789 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:01:59,184 - INFO - === Application Starting ===
+2024-11-18 17:01:59,185 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:01:59,185 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:01:59,185 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:01:59,186 - INFO - Fetching available Ollama models
+2024-11-18 17:01:59,225 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:02:12,733 - INFO - === Application Starting ===
+2024-11-18 17:02:12,734 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:02:12,734 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:02:12,734 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:02:12,736 - INFO - Fetching available Ollama models
+2024-11-18 17:02:12,773 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:02:12,776 - INFO - Starting new query generation
+2024-11-18 17:02:12,776 - INFO - Processing prompt: Make the necessary api call to discover the current time in france.
+2024-11-18 17:02:12,776 - INFO - Model: qwen2.5-coder:7b, Using Ollama: True
+2024-11-18 17:02:12,777 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 17:02:12,778 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 17:02:12,779 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 17:02:14,007 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 1175
+2024-11-18 17:02:14,008 - INFO - Executing shell command: curl -s 'http://worldtimeapi.org/api/timezone/Europe/Paris' | jq '.datetime'
+2024-11-18 17:02:14,165 - INFO - Query generation completed
+2024-11-18 17:02:39,257 - INFO - === Application Starting ===
+2024-11-18 17:02:39,257 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:02:39,257 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:02:39,257 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:02:43,325 - INFO - === Application Starting ===
+2024-11-18 17:02:43,326 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:02:43,326 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:02:43,326 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:03:04,448 - INFO - === Application Starting ===
+2024-11-18 17:03:04,449 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:03:04,449 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:03:04,449 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:03:04,455 - INFO - OpenAI API key updated and saved
+2024-11-18 17:03:58,460 - INFO - === Application Starting ===
+2024-11-18 17:03:58,461 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:03:58,461 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:03:58,461 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:03:58,560 - INFO - === Application Starting ===
+2024-11-18 17:03:58,561 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:03:58,561 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:03:58,561 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:03:58,568 - INFO - Starting new query generation
+2024-11-18 17:03:58,568 - INFO - Processing prompt: Create a powerpoint presentation with two slides  with data about the Haitian Revolutionm and save it in the "Documents" directory.
+2024-11-18 17:03:58,569 - INFO - Model: gpt-4, Using Ollama: False
+2024-11-18 17:03:58,569 - INFO - OpenAI API key configured
+2024-11-18 17:03:58,569 - INFO - Executing OpenAI command: sgpt --model gpt-4 Create a powerpoint presentation with two slides  with data about the Haitian Revolutionm and save it in the "Documents" directory.
+2024-11-18 17:03:58,569 - INFO - Starting subprocess
+2024-11-18 17:04:09,967 - DEBUG - Command stdout: I'm sorry for the misunderstanding, but as a text-based AI, I don't have the    
+ability to create PowerPoint presentations or interact with your file system    
+directly. However, I can guide you on how to create one.                        
+
+ 1 Slide 1: Overview of the Haitian Revolution                                  
+    • Title: The Haitian Revolution                                             
+    • Content: The Haitian Revolution was a successful anti-slavery and         
+      anti-colonial insurrection that took place in Saint-Domingue from 1791    
+      until 1804. It is considered the most successful slave rebellion in the   
+      Western Hemisphere.                                                       
+ 2 Slide 2: Key Figures of the Haitian Revolution                               
+    • Title: Key Figures                                                        
+    • Content: Key figures include Toussaint Louverture, a former slave and the 
+      first black general of the French Army; and Jean-Jacques Dessalines, who  
+      declared Haiti's sovereignty and became its first Emperor.                
+
+After creating the slides, you can save the presentation in the "Documents"     
+directory on your computer.                                                     
+2024-11-18 17:04:09,967 - DEBUG - Command stderr: 
+2024-11-18 17:04:09,967 - DEBUG - Return code: 0
+2024-11-18 17:04:09,967 - INFO - Command completed successfully with response length: 1244
+2024-11-18 17:04:09,968 - INFO - Query generation completed
+2024-11-18 17:04:44,261 - INFO - === Application Starting ===
+2024-11-18 17:04:44,262 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:04:44,262 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:04:44,262 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:04:44,370 - INFO - === Application Starting ===
+2024-11-18 17:04:44,371 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:04:44,371 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:04:44,371 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:04:44,378 - INFO - Starting new query generation
+2024-11-18 17:04:44,378 - INFO - Processing prompt: Create a powerpoint presentation file (*.pptx) with two slides  with data about the Haitian Revolutionm and save it in the "Documents" directory.
+2024-11-18 17:04:44,378 - INFO - Model: gpt-4, Using Ollama: False
+2024-11-18 17:04:44,378 - INFO - OpenAI API key configured
+2024-11-18 17:04:44,378 - INFO - Executing OpenAI command: sgpt --model gpt-4 Create a powerpoint presentation file (*.pptx) with two slides  with data about the Haitian Revolutionm and save it in the "Documents" directory.
+2024-11-18 17:04:44,378 - INFO - Starting subprocess
+2024-11-18 17:04:54,173 - DEBUG - Command stdout: I'm sorry for the misunderstanding, but as a text-based AI, I don't have the    
+ability to create PowerPoint files or interact with your file system directly.  
+However, I can guide you on how to create a PowerPoint presentation about the   
+Haitian Revolution.                                                             
+
+ 1 Slide 1: Introduction to the Haitian Revolution                              
+    • Title: The Haitian Revolution                                             
+    • Content: The Haitian Revolution was a successful anti-slavery and         
+      anti-colonial insurrection by self-liberated slaves against French        
+      colonial rule in Saint-Domingue, now the sovereign nation of Haiti.       
+ 2 Slide 2: Key Events                                                          
+    • Title: Key Events of the Haitian Revolution                               
+    • Content: The revolution began in 1791 and ended in 1804 with the former   
+      colony's independence. It involved blacks, mulattoes, French, Spanish, and
+      British participants—with the ex-slave Toussaint L'Ouverture emerging as  
+      Haiti's most charismatic hero.                                            
+
+You can create these slides in PowerPoint and save the file in your "Documents" 
+directory.                                                                      
+2024-11-18 17:04:54,173 - DEBUG - Command stderr: 
+2024-11-18 17:04:54,173 - DEBUG - Return code: 0
+2024-11-18 17:04:54,174 - INFO - Command completed successfully with response length: 1308
+2024-11-18 17:04:54,174 - INFO - Query generation completed
+2024-11-18 17:05:03,243 - INFO - === Application Starting ===
+2024-11-18 17:05:03,244 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:05:03,244 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:05:03,244 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:05:03,358 - INFO - === Application Starting ===
+2024-11-18 17:05:03,359 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:05:03,359 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:05:03,359 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:05:03,368 - INFO - Starting new query generation
+2024-11-18 17:05:03,369 - INFO - Processing prompt: Create a  file (*.pptx) with two slides  with data about the Haitian Revolutionm and save it in the "Documents" directory.
+2024-11-18 17:05:03,369 - INFO - Model: gpt-4, Using Ollama: False
+2024-11-18 17:05:03,369 - INFO - OpenAI API key configured
+2024-11-18 17:05:03,369 - INFO - Executing OpenAI command: sgpt --model gpt-4 Create a  file (*.pptx) with two slides  with data about the Haitian Revolutionm and save it in the "Documents" directory.
+2024-11-18 17:05:03,369 - INFO - Starting subprocess
+2024-11-18 17:05:09,658 - DEBUG - Command stdout: I'm sorry for the misunderstanding, but as a text-based AI, I don't have the    
+ability to create or manipulate files such as PowerPoint presentations (*.pptx).
+However, I can guide you on how to do it:                                       
+
+ 1 Open PowerPoint and create a new presentation.                               
+ 2 On the first slide, you can add a title like "Haitian Revolution Overview"   
+   and add key points about the revolution.                                     
+ 3 On the second slide, you can add more detailed information or specific events
+   of the revolution.                                                           
+ 4 Save the file in the "Documents" directory.                                  
+
+For the content, you can use online resources or books about the Haitian        
+Revolution to gather information.                                               
+2024-11-18 17:05:09,658 - DEBUG - Command stderr: 
+2024-11-18 17:05:09,658 - DEBUG - Return code: 0
+2024-11-18 17:05:09,658 - INFO - Command completed successfully with response length: 845
+2024-11-18 17:05:09,659 - INFO - Query generation completed
+2024-11-18 17:08:52,110 - INFO - === Application Starting ===
+2024-11-18 17:08:52,110 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:08:52,110 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:08:52,110 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:08:52,140 - INFO - Fetching available Ollama models
+2024-11-18 17:08:52,166 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:09:24,247 - INFO - === Application Starting ===
+2024-11-18 17:09:24,248 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:09:24,248 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:09:24,248 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:09:24,250 - INFO - Fetching available Ollama models
+2024-11-18 17:09:24,291 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:09:24,312 - INFO - === Application Starting ===
+2024-11-18 17:09:24,312 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:09:24,312 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:09:24,312 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:09:24,312 - INFO - Fetching available Ollama models
+2024-11-18 17:09:24,332 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:09:24,334 - INFO - Starting new query generation
+2024-11-18 17:09:24,335 - INFO - Processing prompt: Create a file (*.pptx) with two slides with data about the Haitian Revolutionm and save it in the "Documents" directory.
+2024-11-18 17:09:24,335 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 17:09:24,336 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 17:09:24,337 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 17:09:24,338 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 17:09:40,509 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-11-18 17:09:40,510 - INFO - Executing Python script:
+from pptx import Presentation
+from pptx.util import Inches, Pt
+
+prs = Presentation()
+
+# Title slide
+title_slide = prs.slides.add_slide(prs.slide_layouts[0])
+title = title_slide.shapes.title
+subtitle = title_slide.placeholders[1]
+title.text = "The Haitian Revolution"
+subtitle.text = "Key Events and Impact"
+
+# Content slide 1
+content_slide1 = prs.slides.add_slide(prs.slide_layouts[1])
+title = content_slide1.shapes.title
+content = content_slide1.placeholders[1]
+title.text = "Major Events"
+content.text = "• 1791: La Révolution Haïtienne begins\n• 1793: French National Convention recognizes Haitian independence\n• 1804: Jean-Jacques Dessalines declares independence of Haiti"
+
+# Content slide 2
+content_slide2 = prs.slides.add_slide(prs.slide_layouts[1])
+title = content_slide2.shapes.title
+content = content_slide2.placeholders[1]
+title.text = "Impact"
+content.text = "• First independent black-led nation\n• Inspiration for many independence movements in Latin America and the Caribbean\n• Legacy of slavery, colonialism, and revolution still felt today"
+
+prs.save('Documents/haitian_revolution.pptx')
+2024-11-18 17:09:43,318 - INFO - Query generation completed
+2024-11-18 17:20:36,942 - INFO - === Application Starting ===
+2024-11-18 17:20:36,943 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:20:36,943 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:20:36,943 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:20:36,944 - INFO - Fetching available Ollama models
+2024-11-18 17:20:36,991 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:20:37,004 - INFO - === Application Starting ===
+2024-11-18 17:20:37,005 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:20:37,005 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:20:37,005 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:20:37,005 - INFO - Fetching available Ollama models
+2024-11-18 17:20:37,029 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:20:37,031 - INFO - Starting new query generation
+2024-11-18 17:20:37,031 - INFO - Processing prompt: What is 700000 divided by 70000?
+2024-11-18 17:20:37,031 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-18 17:20:37,032 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 17:20:37,034 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-18 17:20:37,035 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-18 17:20:39,811 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-11-18 17:20:39,812 - INFO - Executing shell command: echo $((700000/70000))
+2024-11-18 17:20:39,860 - INFO - Query generation completed
+2024-11-18 17:34:02,074 - INFO - === Application Starting ===
+2024-11-18 17:34:02,075 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:34:02,075 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:34:02,075 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:34:03,212 - INFO - === Application Starting ===
+2024-11-18 17:34:03,212 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:34:03,212 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:34:03,212 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:34:03,214 - INFO - Fetching available Ollama models
+2024-11-18 17:34:03,272 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:37:45,168 - INFO - === Application Starting ===
+2024-11-18 17:37:45,168 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:37:45,169 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:37:45,169 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:37:45,170 - INFO - Fetching available Ollama models
+2024-11-18 17:37:45,213 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:42:14,038 - INFO - === Application Starting ===
+2024-11-18 17:42:14,038 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:42:14,038 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:42:14,038 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:42:14,038 - INFO - Fetching available Ollama models
+2024-11-18 17:42:14,066 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:43:02,271 - INFO - === Application Starting ===
+2024-11-18 17:43:02,272 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:43:02,272 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:43:02,272 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:43:02,275 - INFO - Fetching available Ollama models
+2024-11-18 17:43:02,317 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:43:08,322 - INFO - === Application Starting ===
+2024-11-18 17:43:08,323 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:43:08,323 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:43:08,323 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:43:08,325 - INFO - Fetching available Ollama models
+2024-11-18 17:43:08,365 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:43:08,410 - INFO - === Application Starting ===
+2024-11-18 17:43:08,410 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:43:08,410 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:43:08,410 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:43:08,410 - INFO - Fetching available Ollama models
+2024-11-18 17:43:08,432 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:43:13,654 - INFO - === Application Starting ===
+2024-11-18 17:43:13,655 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:43:13,655 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:43:13,655 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:43:13,656 - INFO - Fetching available Ollama models
+2024-11-18 17:43:13,695 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:43:13,737 - INFO - === Application Starting ===
+2024-11-18 17:43:13,737 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:43:13,737 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:43:13,737 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:43:13,738 - INFO - Fetching available Ollama models
+2024-11-18 17:43:13,758 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:43:18,426 - INFO - === Application Starting ===
+2024-11-18 17:43:18,426 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:43:18,426 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:43:18,426 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:43:18,428 - INFO - Fetching available Ollama models
+2024-11-18 17:43:18,463 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:44:30,492 - INFO - === Application Starting ===
+2024-11-18 17:44:30,492 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:44:30,492 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:44:30,492 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:44:30,493 - INFO - Fetching available Ollama models
+2024-11-18 17:44:30,518 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-18 17:46:49,221 - INFO - === Application Starting ===
+2024-11-18 17:46:49,221 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-18 17:46:49,222 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-18 17:46:49,222 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241118.log
+2024-11-18 17:46:49,223 - INFO - Fetching available Ollama models
+2024-11-18 17:46:49,252 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 02:35:54,879 - INFO - === Application Starting ===
+2024-11-19 02:35:54,880 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 02:35:54,880 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 02:35:54,880 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 02:35:54,881 - INFO - Fetching available Ollama models
+2024-11-19 02:35:54,974 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 02:35:55,014 - INFO - === Application Starting ===
+2024-11-19 02:35:55,016 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 02:35:55,016 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 02:35:55,016 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 02:35:55,016 - INFO - Fetching available Ollama models
+2024-11-19 02:35:55,035 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 02:35:55,038 - INFO - Starting new query generation
+2024-11-19 02:35:55,038 - INFO - Processing prompt: download the lynx command line web browser
+2024-11-19 02:35:55,038 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-19 02:35:55,039 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-19 02:35:55,040 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-19 02:35:55,041 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-19 02:36:01,430 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-11-19 02:36:01,431 - INFO - Executing shell command: wget https://webkit.org/blog/6920/lynx-2.8.10-win32.zip
+   EXECUTE: unzip lynx-2.8.10-win32.zip
+   EXECUTE: mv lynx-2.8.10 lynx
+   EXECUTE: echo 'C:\lynx\lynx.exe' > ~/Desktop/Lynx_Shortcut.bat
+2024-11-19 02:36:01,477 - INFO - Query generation completed
+2024-11-19 10:42:29,124 - INFO - === Application Starting ===
+2024-11-19 10:42:29,124 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:42:29,124 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:42:29,124 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:42:29,126 - INFO - Fetching available Ollama models
+2024-11-19 10:42:29,159 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:42:40,848 - INFO - === Application Starting ===
+2024-11-19 10:42:40,849 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:42:40,849 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:42:40,849 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:42:40,852 - INFO - Fetching available Ollama models
+2024-11-19 10:42:40,900 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:42:42,185 - INFO - === Application Starting ===
+2024-11-19 10:42:42,185 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:42:42,186 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:42:42,186 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:42:42,189 - INFO - Fetching available Ollama models
+2024-11-19 10:42:42,225 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:42:42,374 - INFO - === Application Starting ===
+2024-11-19 10:42:42,374 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:42:42,375 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:42:42,375 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:42:42,380 - INFO - Fetching available Ollama models
+2024-11-19 10:42:42,415 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:42:45,675 - INFO - === Application Starting ===
+2024-11-19 10:42:45,675 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:42:45,675 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:42:45,675 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:42:45,680 - INFO - Fetching available Ollama models
+2024-11-19 10:42:45,716 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:42:47,017 - INFO - === Application Starting ===
+2024-11-19 10:42:47,017 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:42:47,017 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:42:47,017 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:42:47,022 - INFO - Fetching available Ollama models
+2024-11-19 10:42:47,058 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:42:47,248 - INFO - === Application Starting ===
+2024-11-19 10:42:47,248 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:42:47,249 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:42:47,249 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:42:47,254 - INFO - Fetching available Ollama models
+2024-11-19 10:42:47,291 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:43:18,612 - INFO - === Application Starting ===
+2024-11-19 10:43:18,612 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:43:18,613 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:43:18,613 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:43:18,617 - INFO - Fetching available Ollama models
+2024-11-19 10:43:18,656 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:43:18,716 - INFO - === Application Starting ===
+2024-11-19 10:43:18,716 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:43:18,716 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:43:18,716 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:43:18,717 - INFO - Fetching available Ollama models
+2024-11-19 10:43:18,744 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:43:18,748 - INFO - Starting new query generation
+2024-11-19 10:43:18,749 - INFO - Processing prompt: Please add another haiku to the Test file in the Documents directory.
+2024-11-19 10:43:18,749 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-19 10:43:18,751 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-19 10:43:18,754 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-19 10:43:18,757 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-19 10:43:25,484 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-11-19 10:43:25,485 - INFO - Executing Python script:
+```python
+with open('Test.txt', 'a') as f:
+    f.write('\n\nThe cherry blossoms bloom,\nWinter has retreated, they weep,\nLife renews once more.\n')
+```
+2024-11-19 10:43:25,561 - INFO - Query generation completed
+2024-11-19 10:43:31,990 - INFO - === Application Starting ===
+2024-11-19 10:43:31,990 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:43:31,990 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:43:31,990 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:43:31,995 - INFO - Fetching available Ollama models
+2024-11-19 10:43:32,032 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:43:39,574 - INFO - === Application Starting ===
+2024-11-19 10:43:39,574 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:43:39,574 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:43:39,574 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:43:39,578 - INFO - Fetching available Ollama models
+2024-11-19 10:43:39,615 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:43:39,619 - INFO - Starting new query generation
+2024-11-19 10:43:39,619 - INFO - Processing prompt: Please add another haiku to the Test file in the Documents directory.
+2024-11-19 10:43:39,619 - INFO - Model: mistral:latest, Using Ollama: True
+2024-11-19 10:43:39,621 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-19 10:43:39,622 - DEBUG - http://localhost:11434 "GET / HTTP/11" 200 17
+2024-11-19 10:43:39,623 - DEBUG - Starting new HTTP connection (1): localhost:11434
+2024-11-19 10:43:42,208 - DEBUG - http://localhost:11434 "POST /api/generate HTTP/11" 200 None
+2024-11-19 10:43:42,209 - INFO - Executing Python script:
+with open('Test.txt', 'a') as f:
+    f.write('\n\nBeneath the moon so bright,\nCats dance and chase their dreams,\nPaws whispering soft flight.')
+2024-11-19 10:43:42,272 - INFO - Query generation completed
+2024-11-19 10:43:48,527 - INFO - === Application Starting ===
+2024-11-19 10:43:48,527 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:43:48,528 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:43:48,528 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:43:48,534 - INFO - Fetching available Ollama models
+2024-11-19 10:43:48,575 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:43:58,271 - INFO - === Application Starting ===
+2024-11-19 10:43:58,271 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:43:58,272 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:43:58,272 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:43:58,275 - INFO - Fetching available Ollama models
+2024-11-19 10:43:58,312 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:44:01,940 - INFO - === Application Starting ===
+2024-11-19 10:44:01,941 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:44:01,941 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:44:01,941 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:44:01,946 - INFO - Fetching available Ollama models
+2024-11-19 10:44:01,986 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:44:04,514 - INFO - === Application Starting ===
+2024-11-19 10:44:04,514 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:44:04,514 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:44:04,514 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:44:04,519 - INFO - Fetching available Ollama models
+2024-11-19 10:44:04,558 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:44:05,702 - INFO - === Application Starting ===
+2024-11-19 10:44:05,703 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:44:05,703 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:44:05,703 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:44:05,706 - INFO - Fetching available Ollama models
+2024-11-19 10:44:05,745 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:44:07,317 - INFO - === Application Starting ===
+2024-11-19 10:44:07,317 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:44:07,318 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:44:07,318 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:44:07,321 - INFO - Fetching available Ollama models
+2024-11-19 10:44:07,360 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:44:26,288 - INFO - === Application Starting ===
+2024-11-19 10:44:26,288 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:44:26,289 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:44:26,289 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:44:26,309 - INFO - Fetching available Ollama models
+2024-11-19 10:44:26,347 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:45:54,199 - INFO - === Application Starting ===
+2024-11-19 10:45:54,199 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:45:54,199 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:45:54,200 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:45:54,201 - INFO - Fetching available Ollama models
+2024-11-19 10:45:54,230 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']
+2024-11-19 10:49:21,260 - INFO - === Application Starting ===
+2024-11-19 10:49:21,260 - INFO - Working Directory: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm
+2024-11-19 10:49:21,260 - INFO - Script Location: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/sgpt_interface.py
+2024-11-19 10:49:21,260 - INFO - Log File: /Users/christopher.bradford/mac_computer_use/local_shellgpt_llm/logs/sgpt_20241119.log
+2024-11-19 10:49:21,263 - INFO - Fetching available Ollama models
+2024-11-19 10:49:21,298 - INFO - Found Ollama models: ['mistral:latest', 'qwen2.5-coder:7b', 'llama3.2-vision:latest', 'llava-llama3:latest', 'llava:latest', 'Echo:latest', 'llama3.1:latest', 'llama3.1:70b']

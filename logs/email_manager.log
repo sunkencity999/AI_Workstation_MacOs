@@ -1,0 +1,34 @@
+2024-11-25 15:14:36,410 - root - ERROR - Error checking nmail configuration: File contains no section headers.
+file: PosixPath('/Users/christopher.bradford/.config/nmail/main.conf'), line: 1
+'address=theroyalart@gmail.com\n'
+2024-11-25 15:14:36,410 - root - ERROR - Attempted to send email but nmail is not configured
+2024-11-25 15:15:23,171 - root - INFO - SMTP connection test successful
+2024-11-25 15:15:23,413 - root - INFO - Email sent successfully
+2024-11-25 15:26:41,135 - root - INFO - SMTP connection test successful
+2024-11-25 15:26:41,368 - root - ERROR - Error sending email (code 0) - Output: spawn nmail
+error: unable to acquire lock for /Users/christopher.bradford/.config/nmail/
+       only one nmail session per account/confdir is supported.
+
+2024-11-25 15:27:45,562 - root - INFO - SMTP connection test successful
+2024-11-25 15:27:46,877 - root - ERROR - Error sending email (code 0) - Output: spawn nmail
+IMAP Password: 
+error: IMAP pass not specified.
+
+
+2024-11-25 15:28:20,189 - root - INFO - SMTP connection test successful
+2024-11-25 15:28:21,485 - root - ERROR - Error sending email (code 0) - Output: spawn nmail
+IMAP Password: 
+error: IMAP pass not specified.
+
+
+2024-11-25 15:30:57,620 - root - INFO - SMTP connection test successful
+2024-11-25 15:30:58,920 - root - ERROR - Error sending email (code 0) - Output: spawn nmail
+IMAP Password: 
+SMTP Password: 
+
+2024-11-25 15:36:27,504 - root - INFO - SMTP connection test successful
+2024-11-25 15:37:12,048 - root - INFO - SMTP connection test successful
+2024-11-25 15:37:13,360 - root - ERROR - Error sending email (code 0) - Output: spawn nmail
+IMAP Password: 
+SMTP Password: 
+
