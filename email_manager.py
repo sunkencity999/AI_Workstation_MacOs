@@ -7,6 +7,8 @@ from typing import Optional, Dict, List, Tuple
 import configparser
 import smtplib
 import time
+import yaml
+from string import Template
 
 class EmailManager:
     def __init__(self):
@@ -15,6 +17,7 @@ class EmailManager:
         self.main_config_file = self.config_dir / 'main.conf'
         self.auth_config_file = self.config_dir / 'auth.conf'
         self.ui_config_file = self.config_dir / 'ui.conf'
+        self.yaml_config_file = Path('config.yaml')
         
         # Set up logging
         log_dir = Path('logs')
@@ -230,97 +233,99 @@ Press Enter in the terminal when you're ready to start the setup process."""
         except Exception as e:
             return False, f"Error launching nmail: {str(e)}"
             
+    def _load_yaml_config(self) -> Optional[dict]:
+        """Load configuration from YAML file with environment variable substitution."""
+        if not self.yaml_config_file.exists():
+            logging.warning(f"Config file {self.yaml_config_file} not found")
+            return None
+            
+        try:
+            with open(self.yaml_config_file) as f:
+                # Read the file content
+                content = f.read()
+                
+                # Replace environment variables
+                template = Template(content)
+                expanded = template.safe_substitute(os.environ)
+                
+                # Parse YAML
+                config = yaml.safe_load(expanded)
+                return config
+        except Exception as e:
+            logging.error(f"Error loading YAML config: {e}")
+            return None
+            
     def get_email_password(self) -> Optional[str]:
-        """Get email password from environment variable or keychain."""
-        # First try environment variable
+        """Get email password from environment variable or config."""
+        # First try nmail config since we know it has the correct password
+        try:
+            with open(self.main_config_file, 'r') as f:
+                for line in f:
+                    line = line.strip()
+                    if line.startswith('pass='):
+                        # Remove quotes if present
+                        password = line.split('=', 1)[1].strip().strip('"')
+                        return password
+        except Exception as e:
+            logging.error(f"Error reading password from nmail config: {e}")
+            
+        # Then try environment variable
         password = os.getenv('NMAIL_PASSWORD')
         if password:
             return password
             
-        # Then try keychain
-        try:
-            process = subprocess.run(
-                ['security', 'find-generic-password', '-s', 'nmail_email', '-w'],
-                capture_output=True,
-                text=True
-            )
-            if process.returncode == 0:
-                return process.stdout.strip()
-        except Exception as e:
-            logging.warning(f"Failed to retrieve password from keychain: {e}")
-        
-        # Finally, prompt user
-        print("Please enter your nmail password (it will be stored securely): ")
-        password = input().strip()
-        if password:
-            self.store_email_password(password)
-            os.environ['NMAIL_PASSWORD'] = password
-            return password
+        # Finally try YAML config
+        config = self._load_yaml_config()
+        if config and 'email' in config:
+            email_config = config['email']
+            if 'user' in email_config and 'password' in email_config['user']:
+                return email_config['user']['password']
             
         return None
 
-    def store_email_password(self, password: str) -> bool:
-        """Store email password in keychain and environment."""
-        try:
-            # Store in environment
-            os.environ['NMAIL_PASSWORD'] = password
-            
-            # Store in keychain
-            subprocess.run(
-                ['security', 'delete-generic-password', '-s', 'nmail_email'],
-                capture_output=True
-            )
-            
-            process = subprocess.run(
-                ['security', 'add-generic-password', '-s', 'nmail_email', '-a', 'nmail', '-w', password],
-                capture_output=True,
-                text=True
-            )
-            
-            # Update nmail config
-            with open(self.main_config_file, 'r') as f:
-                config_lines = f.readlines()
-                
-            with open(self.main_config_file, 'w') as f:
-                for line in config_lines:
-                    if not line.startswith('pass ='):
-                        f.write(line)
-                # Quote the password if it contains spaces
-                if ' ' in password:
-                    f.write(f'pass = "{password}"\n')
-                else:
-                    f.write(f'pass = {password}\n')
-                
-            return process.returncode == 0
-        except Exception as e:
-            logging.error(f"Failed to store password: {e}")
-            return False
-
-    def get_smtp_settings(self):
-        """Get SMTP settings from nmail config."""
+    def get_smtp_settings(self) -> Tuple[Optional[str], Optional[int], Optional[str], Optional[str]]:
+        """Get SMTP settings from config."""
+        # First try nmail config since we know it has the correct Gmail settings
         smtp_host = None
         smtp_port = None
         sender_email = None
         sender_name = None
         
         try:
+            config = {}
             with open(self.main_config_file, 'r') as f:
                 for line in f:
                     line = line.strip()
-                    if line.startswith('smtp_host='):
-                        smtp_host = line.split('=')[1].strip()
-                    elif line.startswith('smtp_port='):
-                        smtp_port = int(line.split('=')[1].strip())
-                    elif line.startswith('address='):
-                        sender_email = line.split('=')[1].strip()
-                    elif line.startswith('name='):
-                        sender_name = line.split('=')[1].strip()
+                    if '=' in line:
+                        key, value = line.split('=', 1)
+                        # Remove quotes if present
+                        value = value.strip().strip('"')
+                        config[key.strip()] = value
+                        
+            smtp_host = config.get('smtp_host')
+            smtp_port = int(config.get('smtp_port', 0)) if config.get('smtp_port') else None
+            sender_email = config.get('address')
+            sender_name = config.get('name')
+            
+            if all([smtp_host, smtp_port, sender_email]):
+                return smtp_host, smtp_port, sender_email, sender_name
                         
         except Exception as e:
-            logging.error(f"Error reading SMTP settings: {e}")
-            return None, None, None, None
+            logging.error(f"Error reading SMTP settings from nmail config: {e}")
             
-        return smtp_host, smtp_port, sender_email, sender_name
+        # Fall back to YAML config if nmail config fails
+        config = self._load_yaml_config()
+        if config and 'email' in config:
+            email_config = config['email']
+            if all(key in email_config['smtp'] for key in ['host', 'port']):
+                return (
+                    email_config['smtp']['host'],
+                    email_config['smtp']['port'],
+                    email_config['user']['address'],
+                    email_config['user'].get('name')
+                )
+                
+        return None, None, None, None
 
     def send_email(self, recipient, subject, body):
         """Send an email using SMTP directly."""
@@ -328,7 +333,7 @@ Press Enter in the terminal when you're ready to start the setup process."""
             if not self.is_nmail_configured():
                 return False, "nmail is not configured. Please set up an email service first."
                 
-            # Get SMTP settings from nmail config
+            # Get SMTP settings from config
             smtp_host, smtp_port, sender_email, sender_name = self.get_smtp_settings()
             if not all([smtp_host, smtp_port, sender_email]):
                 return False, "Could not read SMTP settings from nmail configuration"
@@ -360,7 +365,9 @@ Press Enter in the terminal when you're ready to start the setup process."""
             
             try:
                 with smtplib.SMTP(smtp_host, smtp_port) as server:
-                    server.starttls(context=context)
+                    server.ehlo()  # Can be omitted
+                    server.starttls(context=context)  # Secure the connection
+                    server.ehlo()  # Can be omitted
                     server.login(sender_email, password)
                     server.send_message(msg)
                     
@@ -424,3 +431,40 @@ Press Enter in the terminal when you're ready to start the setup process."""
             
         except Exception as e:
             return False, f"Error processing command: {str(e)}"
+
+    def store_email_password(self, password: str) -> bool:
+        """Store email password in keychain and environment."""
+        try:
+            # Store in environment
+            os.environ['NMAIL_PASSWORD'] = password
+            
+            # Store in keychain
+            subprocess.run(
+                ['security', 'delete-generic-password', '-s', 'nmail_email'],
+                capture_output=True
+            )
+            
+            process = subprocess.run(
+                ['security', 'add-generic-password', '-s', 'nmail_email', '-a', 'nmail', '-w', password],
+                capture_output=True,
+                text=True
+            )
+            
+            # Update nmail config
+            with open(self.main_config_file, 'r') as f:
+                config_lines = f.readlines()
+                
+            with open(self.main_config_file, 'w') as f:
+                for line in config_lines:
+                    if not line.startswith('pass ='):
+                        f.write(line)
+                # Quote the password if it contains spaces
+                if ' ' in password:
+                    f.write(f'pass = "{password}"\n')
+                else:
+                    f.write(f'pass = {password}\n')
+                
+            return process.returncode == 0
+        except Exception as e:
+            logging.error(f"Failed to store password: {e}")
+            return False

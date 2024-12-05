@@ -1,0 +1,19 @@
+# Email Configuration Template
+# Copy this file to config.yaml and fill in your values
+# DO NOT commit config.yaml to version control
+
+email:
+  smtp:
+    host: smtp.gmail.com
+    port: 587
+    use_tls: true
+    ssl: true
+  imap:
+    host: imap.gmail.com
+    port: 993
+    ssl: true
+  user:
+    address: theroyalart@gmail.com
+    name: Christopher Bradford
+    # The password will be read from the NMAIL_PASSWORD environment variable
+    password: ${NMAIL_PASSWORD}
